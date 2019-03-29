@@ -22,7 +22,7 @@ function DoublyLinkedList() {
                     head=node;
                 }
             }
-            else if(){}
+
         }
     }
 }
