@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// let str='A man, a plan, a canal. Panama';
+// str=str.replace(/(\s+)|(\,+)|(\s*\,*)/ig,'');
+// console.log('hhha',str)
+function palindrome(str) {
+    // 请把你的代码写在这里
+    str=str.replace(/\s+/g,'').replace(/\.\,\/g,'');
+    str=str.toLowerCase();
+    console.log('before',str)
+    if(str==str.split('').reverse().join('')){
+        console.log('true ',str)
+        return true;
+    }
+    console.log('false',str)
+    return false;
+}
+palindrome("A man, a plan, a canal. Panama");
+</script>
+</body>
+</html>
