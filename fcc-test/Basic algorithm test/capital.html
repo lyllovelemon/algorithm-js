@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+<p>句中单词首字母大写</p>
+<p> 确保字符串的每个单词首字母都大写，其余部分小写。</p>
+<p>像'the'和'of'这样的连接符同理。</p>
+<script>
+    function titleCase(str) {
+        let arr=str.split(' ');
+        for(let i=0;i<arr.length;i++){
+            console.log(arr[i]);
+           arr[i]=arr[i][0].toUpperCase()+arr[i].slice(1,arr[i].length).toLowerCase();
+        }
+       console.log(arr.join(' '));
+        // return str;
+    }
+    titleCase("sHoRt AnD sToUt");
+</script>
+</body>
+</html>

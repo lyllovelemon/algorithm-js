@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找最长单词</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+
+<p>找出最长单词</p>
+<p>在句子中找出最长的单词，并返回它的长度。</p>
+<p>函数的返回值应该是一个数字。</p>
+<script>
+    /**
+     * 方法一
+     **/
+    // function findLongestWord(str) {
+    //     let newStr=str.split(' ');
+    //     console.log('newStr',newStr);
+    //     let arr=[],Len=[],sortArr=[];
+    //     for(let i=0;i<newStr.length;i++){
+    //         arr.push(newStr[i]);//1.将字符串转为数组arr
+    //     }
+    //     console.log('arr',arr);
+    //     //2.将arr每项长度转为数组Len
+    //     for(let i=0;i<arr.length;i++){
+    //         Len.push(arr[i].length);
+    //     }
+    //     console.log('Len',Len);
+    //     //3.将Len按降序排序，返回第一个元素的值(即最长字符串)
+    //      sortArr=Len.sort(function compare(a,b) {
+    //          return b-a;
+    //      })
+    //     console.log('sort',sortArr);
+    //   let longest=sortArr.shift();
+    //   console.log('lone',longest)
+    // }
+    //
+    // findLongestWord("The quick brown fox jumped over the lazy dog");
+    /**
+     *方法二
+     **/
+    function findLongestWord(str) {
+        //1.将字符串根据单词划分为数组
+      let newStr=str.split(' ');
+        let arr=[];
+      for(let i=0;i<newStr.length;i++){
+          arr.push(newStr[i]);
+      }
+      console.log(arr);
+      //2.将最长字符串数longest初始化为0，与arr中每项的长度比较，若arr当前长度大于longest，则将它赋值给longest,遍历结束后获得最大字符串数
+      let longest=0;
+     for(let i=0;i<arr.length;i++){
+         if(arr[i].length>longest){
+             longest=arr[i].length;
+         }
+     }
+     console.log('long',longest);
+    }
+
+    findLongestWord("The quick brown fox jumped over the lazy dog");
+</script>
+</body>
+</html>
