@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function repeat(str, num) {
+        // 请把你的代码写在这里
+        if(num>=0){
+            for(let i=5;i>num;i--){
+                while(i>1){
+                    str += str;
+                }
+            }
+            console.log(str)
+        }
+        else{
+            return '';
+        }
+
+    }
+    repeat("abc", 3);
+</script>
+</body>
+</html>
