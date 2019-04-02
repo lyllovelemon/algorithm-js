@@ -49,12 +49,17 @@
  * 闭包作用：1.封装变量 2.
  * **/
 let mult=function () {
+    let args=Array.prototype.join.call(arguments,',');
+    if(cache[args]){
+        return cache[args];
+    }
     let a=1;
     for(let i=0,l=arguments.length;i<l;i++){
         a=a*arguments[i];
     }
     return a;
 }
+let cache=[];
 </script>
 </body>
 </html>
