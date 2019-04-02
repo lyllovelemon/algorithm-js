@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this、call、apply</title>
+</head>
+<body>
+<script>
+    /**
+     *1.函数作为对象方法被调用,this指向该对象
+     ***/
+    // let obj={
+    //     a:1,
+    //     getA:function () {
+    //         console.log(this===obj);
+    //         console.log(this.a);
+    //     }
+    // }
+    // obj.getA();
+    /**
+     * 2.作为普通函数被调用,this指向全局对象
+     * **/
+    // window.name='globalName';
+    // let getName=function () {
+    //     return this.name;
+    // }
+    // console.log(getName());
+    /**
+     * Function.prototype.call 和Function.prototype.apply
+     *改变this指向
+     * **/
+    // let obj1={
+    //     name:'sven',
+    //     getName(){
+    //         return this.name;
+    //     }
+    // };
+    // let obj2={
+    //     name:'anne'
+    // };
+    // console.log(obj1.getName());
+    // console.log(obj1.getName().call(obj2));
+   let A=function (name) {
+        this.name=name;
+        }
+        let B=function () {
+            A.apply(this,arguments);
+        };
+     B.prototype.getName=function () {
+         return this.name;
+     };
+     let b=new B('sven');
+     console.log(b.getName());
+</script>
+</body>
+</html>
