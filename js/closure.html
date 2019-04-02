@@ -48,18 +48,23 @@
 /**
  * 闭包作用：1.封装变量 2.
  * **/
-let mult=function () {
-    let args=Array.prototype.join.call(arguments,',');
-    if(cache[args]){
-        return cache[args];
+
+let mult=(function () {
+    let cache=[];
+    return function(){
+        let args=Array.prototype.join.call(arguments,',');
+        if(cache[args]){
+            return cache[args];
+        }
+        let a=1;
+        for(let i=0,l=arguments.length;i<l;i++){
+            a=a*arguments[i];
+        }
+        return cache[args]=a;
     }
-    let a=1;
-    for(let i=0,l=arguments.length;i<l;i++){
-        a=a*arguments[i];
-    }
-    return a;
-}
-let cache=[];
+})()
+console.log(mult(1,2,3));
+console.log(mult(2,3,4));
 </script>
 </body>
 </html>
