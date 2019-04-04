@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高阶函数</title>
+</head>
+<body>
+<script>
+    /**
+     * sort排序
+     * **/
+    let arr=[4,68,865,12,3,5,4]
+    let c=arr.sort(function (a,b) {
+      return a-b;
+    })
+    // console.log(c);
+
+    let isType=function (type) {
+        return function (obj) {
+            return Object.prototype.toString().call(obj)==='[Object'+type+']';
+        }
+    }
+    let isString=isType('String');
+    let isArray=isType('Array');
+    let isNumber=isType('Number');
+    console.log(isString('a'));
+    console.log(isArray[2,3,4]);
+
+</script>
+</body>
+</html>

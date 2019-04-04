@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数柯里化</title>
+</head>
+<body>
+<script>
+    /**
+     * 计算每月开销
+     * **/
+    let monthlyCost=0;
+    let cost=(function (money) {
+        let args=[];
+        return function(){
+            if(arguments.length===0){
+                let money=0;
+                for(let i=0,l=args.length;i<l;i++){
+                    money+=args[i];
+                }
+                return money;
+            }
+            else {
+                [].push.apply(args,arguments)
+            }
+        }
+    })()
+    cost(100);
+    cost(200);
+    cost(300);
+   console.log(cost());
+</script>
+</body>
+</html>
