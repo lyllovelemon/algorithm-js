@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标光标位置</title>
+    <style>
+        .container{
+            width: 100vw;
+            height:auto;
+        }
+        .edit-area{
+            border: 1px solid #eeeeee;
+            margin: 20px;
+            width: 500px;
+            height: 300px;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border: 0 none;
+            border-radius: 15px;
+            background: #eeffef;
+            color: #333333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="edit-area" contenteditable="true">vfdbbfdb</div>
+    <div>
+        <button>hello</button>
+    </div>
+</div>
+<script>
+    function foo() {
+        let sel=window.getSelection();
+        console.log(sel);
+        let selRange=sel.getRangeAt(0);
+        console.log('range',selRange);
+    }
+    document.body.addEventListener('click',foo,false);
+</script>
+</body>
+</html>
