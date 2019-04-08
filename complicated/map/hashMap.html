@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hashMap（hashTable）</title>
+</head>
+<body>
+<script>
+    /**
+     *散列函数：给定一个键值，返回值在表中的地址
+     **/
+    function HashTable() {
+        let table=[];
+        /**
+         * 散列函数
+         * **/
+        let loseloseHashCode=function (key) {
+            let hash=0;
+            for(let i=0;i<key.length;i++){
+                hash+=key.charAt(i);//遍历key并将从ASCII表中查到每个字符对应ASCII值加到hash变量中
+            }
+            return hash % 37;//最后，返回hash值,为了得到比较小的数值，我们使用hash值和一个任意数做除法的余数
+        }
+        //从散列表中增加一个新项
+        this.put=function (key,value) {
+            let position=loseloseHashCode(key);
+            console.log(position+'-'+key);
+            table[position]=value;
+        }
+        this.remove=function (key) {
+            table[loseloseHashCode(key)]=undefined;
+        }
+        this.get=function (key) {
+          return table[loseloseHashCode(key)];
+        }
+    }
+let hash=new HashTable();
+    hash.put('lemon','lemon.com');
+    hash.put('lyl','lyl.com');
+    hash.put('zh','zh.com');
+    console.log(hash)
+</script>
+</body>
+</html>
