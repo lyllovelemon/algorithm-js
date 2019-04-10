@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complicated/map/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="93">
+                <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="186">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/object/object.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="32" column="29" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/object/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="167">
+                <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="217">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complicated/map/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2046">
+              <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complicated/map/hashMap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complicated/set/set.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1085">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="41" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dom/dom.html" />
+        <option value="$PROJECT_DIR$/bind.js" />
+        <option value="$PROJECT_DIR$/linkList/linkList.js" />
+        <option value="$PROJECT_DIR$/linkList/linkList.html" />
+        <option value="$PROJECT_DIR$/linkList/doublyLinkedList/doublyLinkedList.html" />
+        <option value="$PROJECT_DIR$/linkList/doublyLinkedList/doublyLinkedList.js" />
+        <option value="$PROJECT_DIR$/palindrome/index.html" />
+        <option value="$PROJECT_DIR$/fcc-test/main.css" />
+        <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/find string.html" />
+        <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/capital.html" />
+        <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/largest-array.js" />
+        <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/large-array.html" />
+        <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/end.html" />
+        <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/repeat.html" />
+        <option value="$PROJECT_DIR$/js/extend.html" />
+        <option value="$PROJECT_DIR$/js/this.html" />
+        <option value="$PROJECT_DIR$/js/closure.html" />
+        <option value="$PROJECT_DIR$/js/date.js" />
+        <option value="$PROJECT_DIR$/design-pattern/function.html" />
+        <option value="$PROJECT_DIR$/design-pattern/currying.html" />
+        <option value="$PROJECT_DIR$/caret/caret.html" />
+        <option value="$PROJECT_DIR$/caret/substring.html" />
+        <option value="$PROJECT_DIR$/set/set.html" />
+        <option value="$PROJECT_DIR$/map/map.html" />
+        <option value="$PROJECT_DIR$/complicated/map/map.html" />
+        <option value="$PROJECT_DIR$/complicated/map/hashMap.html" />
+        <option value="$PROJECT_DIR$/complicated/map/README.md" />
+        <option value="$PROJECT_DIR$/basic/filter.html" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/object/object.html" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/object/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="364" />
+    <option name="y" value="27" />
+    <option name="width" value="1440" />
+    <option name="height" value="966" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
+              <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
+              <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\object" />
+      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers" />
+      <recent name="E:\git\algorithm-js\complicated\map" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.substring.html">
+    <configuration name="extend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/js/extend.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="find string.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/fcc-test/Basic algorithm test/find string.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/palindrome/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="large-array.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/fcc-test/Basic algorithm test/large-array.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="substring.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/caret/substring.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.substring.html" />
+        <item itemvalue="JavaScript Debug.extend.html" />
+        <item itemvalue="JavaScript Debug.large-array.html" />
+        <item itemvalue="JavaScript Debug.find string.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="" />
+      <created>1553770423557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553770423557</updated>
+      <workItem from="1553770424890" duration="1943000" />
+      <workItem from="1553822174398" duration="92000" />
+      <workItem from="1553829138933" duration="2310000" />
+      <workItem from="1553831955671" duration="971000" />
+      <workItem from="1553851034708" duration="448000" />
+      <workItem from="1553851954843" duration="2066000" />
+      <workItem from="1553925789949" duration="1579000" />
+      <workItem from="1553931711837" duration="9694000" />
+      <workItem from="1554081326073" duration="53000" />
+      <workItem from="1554082150359" duration="340000" />
+      <workItem from="1554116044171" duration="976000" />
+      <workItem from="1554167974341" duration="116000" />
+      <workItem from="1554201861165" duration="1941000" />
+      <workItem from="1554254552210" duration="16000" />
+      <workItem from="1554261858752" duration="606000" />
+      <workItem from="1554284328031" duration="1472000" />
+      <workItem from="1554363550825" duration="2170000" />
+      <workItem from="1554695973372" duration="753000" />
+      <workItem from="1554706469733" duration="1977000" />
+      <workItem from="1554715577143" duration="6147000" />
+      <workItem from="1554773175617" duration="90000" />
+      <workItem from="1554802013125" duration="318000" />
+      <workItem from="1554859193233" duration="4254000" />
+    </task>
+    <task id="LOCAL-00001" summary="append linklist">
+      <created>1553822210260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553822210260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="append linklist and doublylinkedlist">
+      <created>1553851075376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553851075376</updated>
+    </task>
+    <task id="LOCAL-00003" summary="append linklist and doublylinkedlist">
+      <created>1553851090446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553851090446</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fcc test">
+      <created>1553925818201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553925818201</updated>
+    </task>
+    <task id="LOCAL-00005" summary="字符串练习2则">
+      <created>1553938127501</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553938127501</updated>
+    </task>
+    <task id="LOCAL-00006" summary="练习2则">
+      <created>1554082165956</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554082165957</updated>
+    </task>
+    <task id="LOCAL-00007" summary="设计模式:原型继承">
+      <created>1554116295009</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554116295009</updated>
+    </task>
+    <task id="LOCAL-00008" summary="设计模式:原型继承">
+      <created>1554202568863</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554202568863</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add closure">
+      <created>1554203350379</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554203350379</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add cache">
+      <created>1554203490141</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554203490141</updated>
+    </task>
+    <task id="LOCAL-00011" summary="closure add cache">
+      <created>1554203645143</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554203645143</updated>
+    </task>
+    <task id="LOCAL-00012" summary="光标操作">
+      <created>1554370352626</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554370352626</updated>
+    </task>
+    <task id="LOCAL-00013" summary="函数柯里化">
+      <created>1554370376861</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554370376861</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat:字符光标处理">
+      <created>1554712405009</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554712405009</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat:js集合实现">
+      <created>1554721195644</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554721195644</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat:js字典实现">
+      <created>1554722373488</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554722373488</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat:js哈希map实现">
+      <created>1554723298643</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554723298643</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat:目录调整">
+      <created>1554723385178</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554723385178</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat:目录调整">
+      <created>1554859461098</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554859461098</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat:目录调整">
+      <created>1554861280522</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554861280522</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat:新增对象">
+      <created>1554863388564</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1554863388564</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40332000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="364" y="27" width="1440" height="966" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32947233" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34987593" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="append linklist" />
+    <MESSAGE value="append linklist and doublylinkedlist" />
+    <MESSAGE value="fcc test" />
+    <MESSAGE value="字符串练习2则" />
+    <MESSAGE value="练习2则" />
+    <MESSAGE value="设计模式:原型继承" />
+    <MESSAGE value="add closure" />
+    <MESSAGE value="add cache" />
+    <MESSAGE value="closure add cache" />
+    <MESSAGE value="光标操作" />
+    <MESSAGE value="函数柯里化" />
+    <MESSAGE value="feat:字符光标处理" />
+    <MESSAGE value="feat:js集合实现" />
+    <MESSAGE value="feat:js字典实现" />
+    <MESSAGE value="feat:js哈希map实现" />
+    <MESSAGE value="feat:目录调整" />
+    <MESSAGE value="feat:新增对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:新增对象" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkList/linkList.html" />
+    <entry file="file://$PROJECT_DIR$/linkList/doublyLinkedList/doublyLinkedList.html" />
+    <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/largest-array.js" />
+    <entry file="file://$PROJECT_DIR$/palindrome/index.html" />
+    <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/find string.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/capital.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/large-array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/end.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/repeat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/extend.html" />
+    <entry file="file://$PROJECT_DIR$/js/this.html" />
+    <entry file="file://$PROJECT_DIR$/js/closure.html" />
+    <entry file="file://$PROJECT_DIR$/fcc-test/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkList/doublyLinkedList/doublyLinkedList.js" />
+    <entry file="file://$PROJECT_DIR$/linkList/linkList.js" />
+    <entry file="file://$PROJECT_DIR$/dom/dom.html" />
+    <entry file="file://$PROJECT_DIR$/js/date.js" />
+    <entry file="file://$PROJECT_DIR$/set/set.html" />
+    <entry file="file://$PROJECT_DIR$/map/map.html" />
+    <entry file="file://$PROJECT_DIR$/caret/substring.html" />
+    <entry file="file://$PROJECT_DIR$/caret/caret.html" />
+    <entry file="file://$PROJECT_DIR$/basic/filter.html" />
+    <entry file="file://$PROJECT_DIR$/design-pattern/function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/currying.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complicated/map/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complicated/map/hashMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complicated/set/set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complicated/map/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="93">
+            <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="186">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="217">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/object/object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/object/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="167">
+            <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
