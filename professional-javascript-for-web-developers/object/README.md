@@ -28,7 +28,7 @@ console.log(this.name);
 ```
 
 ### 属性类型
-####数据属性
+#### 数据属性
 数据属性包含一个数据值的位置，在这个位置可以读取和写入值，共有4个描述其行为的特性。
 
 [[Configurable]]:表示能否通过delete删除属性从而重新定义属性，能否修改属性的特性，或者能否把属性修改为访问器属性，默认值为true
@@ -54,7 +54,7 @@ console.log(person.name)//'lyl'
 ```
 >请不要在IE8中使用Object.defineProperty()方法
 
-####访问器属性
+#### 访问器属性
 
 访问器属性不包含数据值，它们包含一对getter和setter函数，读取访问器属性调用getter函数，写入访问器属性调用setter函数，访问器属性有如下4个特性
 
@@ -90,7 +90,7 @@ _year前面下划线是一种常用记号，表示只能通过对象方法访问
 
 不一定要同时指定getter和setter，只指定getter表明属性不可写，只指定setter表明属性不可读。
 
-###定义多个属性
+### 定义多个属性
 
 使用Object.defineProperties()方法，IE9以上版本支持
 ```$xslt
