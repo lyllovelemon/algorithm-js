@@ -6,13 +6,31 @@
 </head>
 <body>
 <script>
-    let person=new Object();
-    person.name='lemon';
-    person.age='22';
-    person.job='front-web developer';
-    person.sayName=function () {
-        console.log(this.name);
+    // let person=new Object();
+    // person.name='lemon';
+    // person.age='22';
+    // person.job='front-web developer';
+    // person.sayName=function () {
+    //     console.log(this.name);
+    // }
+
+    let book={
+        _year:2018,
+        edition:1
     }
+    Object.defineProperty(book,'year',{
+        get:function(){
+            return this._year;
+        },
+        set:function(newVal){
+            if(newVal>2018){
+                this._year=newVal;
+                this.edition +=newVal-2018;
+            }
+        }
+    })
+    book.year=2019;
+    console.log(book.edition)
 </script>
 </body>
 </html>
