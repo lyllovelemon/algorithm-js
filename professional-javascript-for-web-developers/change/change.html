@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+console.log(4+[1,2,3]);//先调用valueOf(),再调用toString()
+console.log([1,2,3].toString());
+console.log([].toString());
+console.log([]+[]);
+console.log('a'+ + 'b');//先看+ 'b'，被转换为NaN，所以结果为aNaN
+console.log({} + []);
+console.log([]+{});
+console.log({}+{});
+console.log(true+true);
+console.log(1+{a:1});
+</script>
+</body>
+</html>
