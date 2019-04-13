@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="feat:增加递归">
-      <change afterPath="$PROJECT_DIR$/algorithm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/function/closure/README.md" afterDir="false" />
+    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/basic/linkList/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/complicated/set/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/caret/caret.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/caret/caret.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/caret/substring.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/caret/substring.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/dom/dom.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/dom/dom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/js/closure.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/js/closure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/js/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/js/date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/js/extend.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/js/extend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/js/this.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/js/this.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/linkList/doublyLinkedList/doublyLinkedList.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/doublyLinkedList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/linkList/doublyLinkedList/doublyLinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/doublyLinkedList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/linkList/linkList.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/linkList/linkList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/linkList/linkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/basic/linkList/linkList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complicated/map/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/complicated/map/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complicated/map/hashMap.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/complicated/map/hashMap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complicated/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/complicated/map/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complicated/set/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/complicated/set/set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/complicated/map/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/complicated/map/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,83 +20,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/inherit/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="407">
-                <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/change/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="93">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="434">
-                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/function/factorial/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="269">
-                <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="186">
-                <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="93">
-                <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <first_editor relative-caret-position="62">
+                <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="434">
+                <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-3079">
+                <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/linkList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="106" lean-forward="true" selection-end-line="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="221">
+                <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/doublyLinkedList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/README.md">
+        <entry file="file://$PROJECT_DIR$/algorithm/complicated/set/set.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="115" column="34" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="115" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/complicated/set/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-27">
-                <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <first_editor>
+                <caret column="4" selection-start-column="4" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -118,37 +116,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/function/closure/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="248">
-                <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/function/basic/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="620">
-                <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/object/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3720">
-                <caret line="120" selection-start-line="120" selection-end-line="120" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/hashMap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="40" column="21" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="40" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -219,12 +190,16 @@
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/algorithm/README.md" />
+        <option value="$PROJECT_DIR$/algorithm/basic/linkList/README.md" />
+        <option value="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/README.md" />
+        <option value="$PROJECT_DIR$/algorithm/complicated/map/README.md" />
+        <option value="$PROJECT_DIR$/algorithm/complicated/set/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="449" />
-    <option name="y" value="135" />
+    <option name="x" value="575" />
+    <option name="y" value="104" />
     <option name="width" value="1440" />
     <option name="height" value="975" />
   </component>
@@ -260,13 +235,6 @@
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="complicated" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,11 +264,11 @@
       <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\algorithm\complicated\set" />
+      <recent name="E:\git\algorithm-js\algorithm\basic\linkList\doublyLinkedList" />
+      <recent name="E:\git\algorithm-js\algorithm\basic\linkList" />
       <recent name="E:\git\algorithm-js\algorithm" />
       <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\closure" />
-      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\basic" />
-      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function" />
-      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\json" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,7 +347,7 @@
       <workItem from="1555031792280" duration="596000" />
       <workItem from="1555039773261" duration="1139000" />
       <workItem from="1555049891712" duration="2578000" />
-      <workItem from="1555119540973" duration="7113000" />
+      <workItem from="1555119540973" duration="7412000" />
     </task>
     <task id="LOCAL-00001" summary="append linklist">
       <created>1553822210260</created>
@@ -612,14 +580,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555127063198</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feat:目录调整">
+      <created>1555127560417</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1555127560417</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55950000" />
+    <option name="totallyTimeSpent" value="56249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="449" y="135" width="1440" height="975" extended-state="0" />
+    <frame x="575" y="104" width="1440" height="975" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -706,11 +681,11 @@
     <MESSAGE value="feat:日期格式化" />
     <MESSAGE value="feat:add js类型转换" />
     <MESSAGE value="feat:新增JSON" />
-    <MESSAGE value="feat:目录调整" />
     <MESSAGE value="feat:增加函数" />
     <MESSAGE value="feat:增加递归" />
     <MESSAGE value="feat:目录增加" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:目录增加" />
+    <MESSAGE value="feat:目录调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:目录调整" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.js">
@@ -814,27 +789,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/hashMap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/complicated/set/set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/date.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -950,23 +904,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/README.md">
+    <entry file="file://$PROJECT_DIR$/algorithm/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="93">
-            <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <first_editor relative-caret-position="434">
+            <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/README.md">
+    <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/linkList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="106" lean-forward="true" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-27">
-            <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <first_editor relative-caret-position="-3079">
+            <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/doublyLinkedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/hashMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="62">
+            <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/complicated/set/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="4" selection-start-column="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/complicated/set/set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="115" column="34" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="115" selection-end-column="34" />
         </state>
       </provider>
     </entry>
