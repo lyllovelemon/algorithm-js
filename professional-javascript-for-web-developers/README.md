@@ -1,5 +1,8 @@
 # 目录
 
+## 函数
++ [函数](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/function/basic)
++ [递归](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/function/factorial)
 ## 对象
 + [对象基础](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/object)
 
