@@ -131,3 +131,65 @@ let inOrderTraverseNode=function (node,callback) {
     };
 ```
 对于寻找最小值，总是沿着树的左边；寻找最大值，总是沿着树的右边。
+
+### 搜索一个特定值
+```ecmascript 6
+this.search=function (key) {
+        return searchNode(root,key);
+    };
+
+    let searchNode=function (node,key) {
+        if(node===null){
+            return false;
+        }
+        if(key<node.key){
+            return searchNode(node.left,key)
+        }
+        else if(key>node.key){
+            return searchNode(node.right,key);
+        }
+        else{
+            return true;
+        }
+    };
+```
+### 移除一个节点
+```ecmascript 6
+   
+    this.remove=function (key) {
+        root=removeNode(root,key);
+    }
+    let removeNode=function (node,key) {
+        if(node===null){
+            return null;
+        }
+        if(key<node.key){
+            node.left=removeNode(node.left,key);
+        }
+        else if(key>node.key){
+            node.right=removeNode(node.right,key);
+        }
+        //key为node.key
+        else{
+            //情况一：一个叶节点
+            if(node.left===null && node.right===null){
+                node=null;
+                return node;
+            }
+            //情况二：一个只有一个子节点的节点
+            if(node.left===null){
+                node=node.right;
+                return node;
+            }
+            else if(node.right===null){
+                node=node.left;
+                return node;
+            }
+            //情况三：一个有两个子节点的节点
+            let aux=findMinNode(node.right);
+            node.key=aux.key;
+            node.right=removeNode(node.right,aux.key);
+            return node;
+        }
+    }
+```
