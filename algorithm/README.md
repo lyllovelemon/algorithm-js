@@ -10,7 +10,8 @@
 + [集合](https://github.com/lyllovelemon/algorithm-js/tree/master/algorithm/complicated/set)
 ### 提升篇
 + [字典和散列表](https://github.com/lyllovelemon/algorithm-js/tree/master/algorithm/complicated/map)
-+ 树
++ [树](https://github.com/lyllovelemon/algorithm-js/tree/master/algorithm/complicated/tree)
++ [红黑树](https://github.com/lyllovelemon/algorithm-js/tree/master/algorithm/complicated/rbt)
 + 图
 
 ## 算法
