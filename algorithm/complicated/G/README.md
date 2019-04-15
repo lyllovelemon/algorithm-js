@@ -2,7 +2,8 @@
 ## 定义
 图是一组由边连接的节点（顶点），图可以用来表示道路、航班、通信状态。
 
-![图](https://www.google.com/search?biw=1920&bih=937&tbm=isch&sa=1&ei=oEi0XL_pOuGsmAWWrZSoBA&q=%E5%9B%BE&oq=%E5%9B%BE&gs_l=img.3..0l10.12703.12703..13221...0.0..0.227.227.2-1......0....1..gws-wiz-img.1rnYorjHMkc#imgrc=cNSEGn0b7RJlxM:)
+![图](https://upload-images.jianshu.io/upload_images/77969-7d4a5f4f793b28ca.png)
+
 一个图G = (V, E)由以下元素组成。
 
 V：一组顶点
