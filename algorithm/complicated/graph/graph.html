@@ -7,10 +7,23 @@
 <body>
 <script>
     function Graph() {
-      let Vertices=[];
+      let vertices=[];
       let adjust=new Dictionary();
     }
+    /**
+     * 向图中添加一个新的顶点
+     * 参数v 顶点
+     *  vertices 顶点列表
+     *  adjList 邻接表
+     * **/
+  this.addVertex=function (v) {
+      vertices.push(v);
+      adjList.set(v,[]);
+  }
+  this.addEdge=function (v,w) {
+      adjList.get(v).push(w);
 
+  }
 </script>
 </body>
 </html>
