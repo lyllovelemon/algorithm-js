@@ -58,4 +58,70 @@ E：一组边，连接V中的顶点
 
 2. 广度优先搜索(先宽后深)：基于队列，将顶点存入队列中，最先入队列的顶点先访问
 
+### 广度优先搜索
++ 白色：表明该顶点未访问
++ 灰色：表明该顶点被访问过，但未完全访问
++ 黑色：表明该顶点被完全访问
+```ecmascript 6
+   //广度优先搜索算法
+        let initializeColor=function () {
+            let color=[];
+            for(let i=0;i<verticles.length;i++){
+                color[verticles[i]]='white';
+            }
+            return color;
+        }
+        this.bfs=function (v,callback) {
+            let color=initializeColor(),
+                queue=new Queue();
+            queue.enqueue(v);
 
+            while (!queue.isEmpty()){
+                let u=queue.dequeue();
+                neighbors=adjList.get(u);
+                color[u]='gray';
+                for(let i=0;i<neighbors.length;i++){
+                    let w=neighbors[i];
+                    if(color[w]==='white'){
+                        color[w]='gray';
+                        queue.enqueue(w);
+                    }
+                }
+                color[u]='black';
+                if(callback){
+                    callback(u);
+                }
+            }
+        }
+```
+### 深度优先搜索
++ 灰色：未发现的
++ 黑色：已发现的
+```ecmascript 6
+  //深度优先搜索算法
+        this.dfs=function (callback) {
+            let color=initializeColor();
+            for(let i=0;i<verticles.length;i++) {
+                if(color[verticles[i]]==='white'){
+                    dfsVisit(verticles[i],color,callback)
+                }
+            }
+        }
+        let dfsVisit=function (u,color,callback) {
+            color[u]='gray';
+            if(callback){
+                callback(u);
+            }
+            let neighbors=adjList.get(u);
+            for(let i=0;i<neighbors.length;i++){
+                let w=neighbors[i];
+                if(color[w]==='white'){
+                    dfsVisit(w,color,callback);
+                }
+            }
+            color[u]='black';
+        }
+```
+### 拓扑排序 topsort
+
+当我们需要编排一些任务或步骤的执行顺序时，这称为拓扑排序

@@ -7,8 +7,8 @@
 <body>
 <script>
     function Graph() {
-      let vertices=[];
-      let adjust=new Dictionary();
+      let verticles=[];
+      let adjList=new Dictionary();
         /**
          * 向图中添加一个新的顶点
          * 参数v 顶点
@@ -16,7 +16,7 @@
          *  adjList 邻接表
          * **/
         this.addVertex=function (v) {
-            vertices.push(v);
+            verticles.push(v);
             adjList.set(v,[]);
         }
         this.addEdge=function (v,w) {
@@ -25,9 +25,9 @@
         }
         this.toString=function () {
             let s="";
-            for(let i=0;i<vertices.length;i++) {
-                s+=vertices[i]+"->";
-                let neighbors=adjList.get(vertices[i]);
+            for(let i=0;i<verticles.length;i++) {
+                s+=verticles[i]+"->";
+                let neighbors=adjList.get(verticles[i]);
                 for(let j=0;j<neighbors.length;j++){
                     s+=neighbors[j]+' ';
                 }
@@ -35,6 +35,60 @@
             }
             return s;
         };
+        //广度优先搜索算法
+        let initializeColor=function () {
+            let color=[];
+            for(let i=0;i<verticles.length;i++){
+                color[verticles[i]]='white';
+            }
+            return color;
+        }
+        this.bfs=function (v,callback) {
+            let color=initializeColor(),
+                queue=new Queue();
+            queue.enqueue(v);
+
+            while (!queue.isEmpty()){
+                let u=queue.dequeue();
+                neighbors=adjList.get(u);
+                color[u]='gray';
+                for(let i=0;i<neighbors.length;i++){
+                    let w=neighbors[i];
+                    if(color[w]==='white'){
+                        color[w]='gray';
+                        queue.enqueue(w);
+                    }
+                }
+                color[u]='black';
+                if(callback){
+                    callback(u);
+                }
+            }
+        }
+        //深度优先搜索算法
+        this.dfs=function (callback) {
+            let color=initializeColor();
+            for(let i=0;i<verticles.length;i++) {
+                if(color[verticles[i]]==='white'){
+                    dfsVisit(verticles[i],color,callback)
+                }
+            }
+        }
+        let dfsVisit=function (u,color,callback) {
+            color[u]='gray';
+            if(callback){
+                callback(u);
+            }
+            let neighbors=adjList.get(u);
+            for(let i=0;i<neighbors.length;i++){
+                let w=neighbors[i];
+                if(color[w]==='white'){
+                    dfsVisit(w,color,callback);
+                }
+            }
+            color[u]='black';
+        }
+
     }
 
   let graph=new Graph();
@@ -53,6 +107,8 @@
   graph.addEdge('B','F');
   graph.addEdge('E','I');
   console.log(graph.toString());
+
+
 </script>
 </body>
 </html>
