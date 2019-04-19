@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function ArrayList(){
+        let array = [];
+        this.insert = function(item){
+            array.push(item);
+        };
+        this.toString= function(){
+            return array.join();
+        };
+    };
+    this.bubbleSort = function(){
+        let length = array.length;
+        for (let i=0; i<length; i++){
+            for (let j=0; j<length-1; j++ ){
+                if (array[j] > array[j+1]){
+                    swap(j, j+1);
+                }
+            }
+        }
+    };
+</script>
+</body>
+</html>
