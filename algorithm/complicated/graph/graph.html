@@ -9,21 +9,50 @@
     function Graph() {
       let vertices=[];
       let adjust=new Dictionary();
+        /**
+         * 向图中添加一个新的顶点
+         * 参数v 顶点
+         *  vertices 顶点列表
+         *  adjList 邻接表
+         * **/
+        this.addVertex=function (v) {
+            vertices.push(v);
+            adjList.set(v,[]);
+        }
+        this.addEdge=function (v,w) {
+            adjList.get(v).push(w);
+            adjList.get(w).push(v);
+        }
+        this.toString=function () {
+            let s="";
+            for(let i=0;i<vertices.length;i++) {
+                s+=vertices[i]+"->";
+                let neighbors=adjList.get(vertices[i]);
+                for(let j=0;j<neighbors.length;j++){
+                    s+=neighbors[j]+' ';
+                }
+                s+='\n';
+            }
+            return s;
+        };
     }
-    /**
-     * 向图中添加一个新的顶点
-     * 参数v 顶点
-     *  vertices 顶点列表
-     *  adjList 邻接表
-     * **/
-  this.addVertex=function (v) {
-      vertices.push(v);
-      adjList.set(v,[]);
-  }
-  this.addEdge=function (v,w) {
-      adjList.get(v).push(w);
 
-  }
+  let graph=new Graph();
+  let myVerticles=['A','B','C','D','E','F','G','I'];
+  for(let i=0;i<myVeerticles.length;i++){
+      graph.addVertex(myVerticles[i]);
+  };
+  graph.addEdge('A','B');
+  graph.addEdge('A','C');
+  graph.addEdge('A','D');
+  graph.addEdge('C','D');
+  graph.addEdge('C','G');
+  graph.addEdge('D','G');
+  graph.addEdge('D','H');
+  graph.addEdge('B','E');
+  graph.addEdge('B','F');
+  graph.addEdge('E','I');
+  console.log(graph.toString());
 </script>
 </body>
 </html>
