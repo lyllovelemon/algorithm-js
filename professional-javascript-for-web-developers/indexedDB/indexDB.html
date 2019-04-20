@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>indexedDB教程</title>
+    <style>
+        table{border-collapse:collapse;}
+        th,td{min-width:150px;text-align:center;}
+        .red{color:#FFF;background-color:#F00;}
+    </style>
+</head>
+<body>
+<h1>indexedDB快速教程-实现增删查改</h1>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API">MDN indexedDB API</a></p>
+<input type="text" id="Juser" placeholder="姓名">
+<input type="text" id="Jphone" placeholder="电话">
+<button id="Jadd">增加</button>
+<button id="Jdel">删除数据库</button>
+<br>
+
+<input type="text" id="JsearchTxt" placeholder="查询">
+<button id="Jsearch">点击查询</button>
+
+<br>
+<table border="1">
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>电话</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="Jtbd"></tbody>
+</table>
+<script>
+    let index = {
+        config:{
+            dbName:'demo',
+            tbName:'tb',
+            dbVersion:1,   //只有在修改数据表的字段的时候才需要更新版本
+        },
+        init(){
+            const C = this.config;
+
+            let _this = this;
+            // 1.创建数据库
+            let IDBRequest = window.indexedDB.open(C.dbName,C.dbVersion);
+            /*
+              返回的IDBRequest对象有以下方法:
+              1.onblocked
+              2.onerror
+              3.onsuccess
+              4.onupgradeneeded: 优先级比 onsuccess 更高
+             */
+
+
+            // 2.创建对象存储空间 - 你可以理解成创建数据库的"表"
+            IDBRequest.onupgradeneeded = (e)=>{
+                var _db = e.target.result;
+                // 如果不存在某个"表"就创建
+                if (!_db.objectStoreNames.contains(C.tbName)) {
+                    let objectStore = _db.createObjectStore(C.tbName,{
+                        keyPath:'id',
+                        autoIncrement: true
+                    })
+
+                    // 创建可以被索引的字段
+                    objectStore.createIndex("user", "user", { unique: false });
+                    objectStore.createIndex("phone", "phone", { unique: false });
+                }
+            }
+
+            IDBRequest.onsuccess = (e)=>{
+                // e.target == IDBRequest; //true
+                let db = e.target.result;
+                _this.db = db;
+                _this.renderAll(db); //展示数据库存储的数据
+
+            }
+
+            IDBRequest.onerror = (e)=>{
+                // e.target == IDBRequest; //true
+                console.log(e.target.errorCode);
+            }
+
+        },
+        tpl(obj){
+            if (!!Object.keys(obj).length) {
+                let tpl = `
+            <tr id="Jtr${obj.id}">
+              <td data-key="user">${obj.user}</td>
+              <td data-key="phone">${obj.phone}</td>
+              <td class="btns">
+                <button class="del" data-type="del" data-id="${obj.id}" >删除</button>
+                <button class="modify" data-type="modify" data-id="${obj.id}" data-open="0">修改</button>
+              </td>
+            </tr>
+          `
+                return tpl;
+            }else{
+                return '';
+            }
+        },
+        renderOne(obj){
+            let tpl = this.tpl(obj);
+            Jtbd.insertAdjacentHTML('beforeend', tpl);
+        },
+        renderAll(db){
+            const C = this.config;
+            let _this = this;
+            if (db.objectStoreNames.contains(C.tbName)) {
+
+                // 开始处理数据
+                let transaction = db.transaction([C.tbName], "readwrite");
+
+                // transaction对象也有下面两个方法:
+                // transaction.oncomplete = (e)=>{
+                //   console.log('transaction.oncomplete')
+                // }
+
+                // transaction.onerror = (e)=>{
+                //   console.log('transaction.onerror')
+                // }
+
+                // 获取"表"里的数据
+                let objectStore = transaction.objectStore(C.tbName);
+
+                let html = '';
+
+                // 遍历"表"里面的数据
+                objectStore.openCursor().onsuccess = (e)=> {
+                    let cursor = e.target.result;
+                    if (cursor) {
+                        html = html + _this.tpl(cursor.value)
+                        cursor.continue();
+                    }else{
+                        Jtbd.innerHTML = html;
+                    }
+                }
+            }
+        }
+    }
+
+
+    let handler = {
+        add(obj){  //增
+            const C = index.config;
+            // 凡是要修改数据库, 都需要"告诉"数据库: 我要进行"transaction"(操作)了.
+            let transaction = index.db.transaction([C.tbName], "readwrite");
+            let objectStore = transaction.objectStore(C.tbName);
+
+            let addRequest = objectStore.add(obj);  //直接存储js对象就可以了
+
+            addRequest.onsuccess = (e)=> {
+                //存进去之后, 还要获取id用于标记html元素
+                let id = e.target.result;
+                index.renderOne({
+                    id:id,
+                    user:Juser.value,
+                    phone:Jphone.value
+                })
+            }
+        },
+        del(id,cb){ // 删
+            const C = index.config;
+            let transaction = index.db.transaction([C.tbName], "readwrite");
+            let objectStore = transaction.objectStore(C.tbName);
+
+            let _id = parseInt(id);
+            let rmRequest = objectStore.delete(_id);
+            rmRequest.onsuccess = (e)=>{
+                console.log('删除完毕')
+                cb && cb();
+            }
+            rmRequest.onerror = (e)=>{
+                console.log('删除失败')
+            }
+        },
+        search(str){  // 查
+            const C = index.config;
+            let transaction = index.db.transaction([C.tbName], "readwrite");
+            let objectStore = transaction.objectStore(C.tbName);
+
+            // IDBKeyRange可以理解成一个生成查找范围的对象 有 only/bound/lowerBound/upperBound等几个方法
+
+            let bound = IDBKeyRange.only(str);
+            let html = '';
+
+            // 前面创建了两个可以被索引的字段 user/phone, 这里我们查找user
+            objectStore.index('user').openCursor(bound).onsuccess = (e)=>{
+                let cursor = e.target.result;
+                if (cursor) {
+                    html = html + index.tpl(cursor.value)
+                    cursor.continue();
+                }else{
+                    Jtbd.innerHTML = html;
+                }
+            }
+        },
+        modify(id,obj){   // 改
+            const C = index.config;
+            let transaction = index.db.transaction([C.tbName], "readwrite");
+            let objectStore = transaction.objectStore(C.tbName);
+
+            let _id = parseInt(id);
+            let modifyRequest = objectStore.get(_id);
+            modifyRequest.onsuccess = (e)=>{
+                let res = e.target.result;
+                for (let key in obj) {
+                    if (typeof res[key] != 'undefined') {
+                        res[key] = obj[key];
+                    }
+                }
+                objectStore.put(res);
+            }
+
+        }
+    }
+
+    index.init();
+
+    Jadd.addEventListener('click', function(e) {
+        let data = {
+            user:Juser.value,
+            phone:Jphone.value
+        };
+        handler.add(data);
+    }, false)
+
+    Jtbd.addEventListener('click', function(e) {
+        let curEle =  e.target
+        let id = curEle.dataset.id;
+
+        if (!!id) {
+            let type = curEle.dataset.type;
+            switch (type) {
+                case 'del':
+                    handler.del(id,function(){
+                        let rmNode = document.getElementById('Jtr'+id);
+                        Jtbd.removeChild(rmNode);
+                    })
+                    break;
+
+                case 'modify':
+                    let isOpen = curEle.dataset.open=='1';
+
+                    let tr = document.getElementById('Jtr'+id);
+                    let tds = [].slice.call(tr.children);
+
+                    if (isOpen) {
+                        // 更新数据
+                        curEle.innerHTML = '修改'
+                        curEle.dataset.open = '0';
+                        curEle.classList.remove('red');
+
+                        // 声明一个变量存储修改后的数据
+                        let data = {};
+
+                        for (let i = 0,len = tds.length-1; i < len; i++) {
+                            let td = tds[i];
+                            data[td.dataset.key] = td.innerText;
+                            td.removeAttribute('contenteditable');
+                        }
+
+                        handler.modify(id,data);
+
+                    }else{
+                        //  打开编辑状态
+                        curEle.innerHTML = '保存'
+                        curEle.dataset.open = '1';
+                        curEle.classList.add('red');
+
+                        for (let i = 0,len = tds.length-1; i < len; i++) {
+                            let td = tds[i];
+                            td.setAttribute('contenteditable', true)
+                        }
+                    }
+
+                    break;
+
+                default:
+                    // ...
+                    break;
+            }
+
+        }
+    }, false)
+
+    Jsearch.addEventListener('click', function(e) {
+        let str = JsearchTxt.value.trim();
+        if (!!str) {
+            Jtbd.innerHTML = '';
+            handler.search(str);
+        }else{
+            alert('输入非空字符查找!');
+        }
+    }, false)
+
+    Jdel.addEventListener('click', function(){
+        index.db.close(); //记得要关闭数据库才能删除, 否侧下列事件不会被触发
+
+        let destoryRequest = window.indexedDB.deleteDatabase(index.config.dbName);
+
+        destoryRequest.onerror = function(event) {
+            console.log("Error deleting database.");
+        };
+
+        destoryRequest.onsuccess = function(event) {
+            console.log("Database deleted successfully");
+        };
+    },false)
+</script>
+</body>
+</html>

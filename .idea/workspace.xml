@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/graph/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/complicated/graph/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/graph/graph.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/complicated/graph/graph.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +18,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/README.md">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="434">
-                <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+              <first_editor relative-caret-position="294">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -30,22 +30,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/complicated/sort/README.md">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2511">
-                <caret line="81" selection-start-line="81" selection-end-line="81" />
+              <first_editor>
+                <caret column="9" selection-start-column="9" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2077">
-              <caret line="67" column="1" selection-start-line="27" selection-start-column="3" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="-248">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/complicated/graph/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="325">
+              <first_editor relative-caret-position="3875">
                 <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
               </first_editor>
               <second_editor />
@@ -116,14 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/complicated/graph/graph.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="2077">
               <caret line="67" column="6" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="89" selection-end-column="9" />
-              <folding>
-                <element signature="e#985#1110#0" />
-                <element signature="e#1194#1218#0" />
-                <element signature="e#1912#1936#0" />
-                <element signature="e#2197#2221#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/linkList/doublyLinkedList/doublyLinkedList.js" />
-        <option value="$PROJECT_DIR$/palindrome/index.html" />
         <option value="$PROJECT_DIR$/fcc-test/main.css" />
         <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/find string.html" />
         <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/capital.html" />
@@ -202,12 +194,14 @@
         <option value="$PROJECT_DIR$/algorithm/complicated/sort/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/graph/graph.html" />
         <option value="$PROJECT_DIR$/algorithm/complicated/graph/README.md" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/README.md" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="674" />
-    <option name="y" value="102" />
+    <option name="x" value="274" />
+    <option name="y" value="93" />
     <option name="width" value="1440" />
     <option name="height" value="992" />
   </component>
@@ -216,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,26 +221,24 @@
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="complicated" type="462c0819:PsiDirectoryNode" />
+              <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
+              <item name="indexedDB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="complicated" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,16 +250,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\algorithm" />
+      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\indexedDB" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\sort" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\G" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\rbt" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\tree" />
-      <recent name="E:\git\algorithm-js\algorithm\complicated\set" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\algorithm-js\algorithm" />
-      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,7 +345,8 @@
       <workItem from="1555567451950" duration="630000" />
       <workItem from="1555637536216" duration="604000" />
       <workItem from="1555645390602" duration="3636000" />
-      <workItem from="1555664360353" duration="1705000" />
+      <workItem from="1555664360353" duration="2173000" />
+      <workItem from="1555739887990" duration="1232000" />
     </task>
     <task id="LOCAL-00001" summary="append linklist">
       <created>1553822210260</created>
@@ -676,16 +670,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555661892386</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="feat:增加拓扑排序">
+      <created>1555666086402</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1555666086403</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76065000" />
+    <option name="totallyTimeSpent" value="77765000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="674" y="102" width="1440" height="992" extended-state="0" />
+    <frame x="274" y="93" width="1440" height="992" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -696,7 +698,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32932693" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32932693" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33894232" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -749,7 +751,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="光标操作" />
     <MESSAGE value="函数柯里化" />
     <MESSAGE value="feat:字符光标处理" />
     <MESSAGE value="feat:js集合实现" />
@@ -774,23 +775,10 @@
     <MESSAGE value="feat:增加图" />
     <MESSAGE value="feat:增加图遍历" />
     <MESSAGE value="feat:排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:排序" />
+    <MESSAGE value="feat:增加拓扑排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:增加拓扑排序" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/capital.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/large-array.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fcc-test/Basic algorithm test/end.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -942,16 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="434">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/linkList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1033,7 +1011,7 @@
     <entry file="file://$PROJECT_DIR$/algorithm/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="434">
+          <first_editor relative-caret-position="77">
             <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
           </first_editor>
           <second_editor />
@@ -1098,26 +1076,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/complicated/graph/graph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="67" column="6" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="89" selection-end-column="9" />
-          <folding>
-            <element signature="e#985#1110#0" />
-            <element signature="e#1194#1218#0" />
-            <element signature="e#1912#1936#0" />
-            <element signature="e#2197#2221#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/complicated/graph/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
+          <first_editor relative-caret-position="3875">
             <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/complicated/graph/graph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2077">
+          <caret line="67" column="6" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="89" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="294">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="9" selection-start-column="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
