@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/basic/stack/stack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/basic/queue/queue.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +45,20 @@
         <entry file="file://$PROJECT_DIR$/algorithm/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="434">
-                <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+              <first_editor relative-caret-position="372">
+                <caret line="12" column="57" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="57" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/basic/queue/queue.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="806">
+                <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,24 +103,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/basic/stack/stack.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="93">
-                <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/model/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-47">
-                <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+              <first_editor relative-caret-position="372">
+                <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/capital.html" />
         <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/largest-array.js" />
         <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/large-array.html" />
         <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/end.html" />
@@ -180,7 +179,6 @@
         <option value="$PROJECT_DIR$/algorithm/complicated/rbt/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/G/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/G/G.html" />
-        <option value="$PROJECT_DIR$/algorithm/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/sort/sort.html" />
         <option value="$PROJECT_DIR$/algorithm/complicated/sort/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/graph/graph.html" />
@@ -189,12 +187,14 @@
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html" />
         <option value="$PROJECT_DIR$/algorithm/basic/array/array.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/stack/stack.md" />
+        <option value="$PROJECT_DIR$/algorithm/README.md" />
+        <option value="$PROJECT_DIR$/algorithm/basic/queue/queue.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="247" />
-    <option name="y" value="123" />
+    <option name="x" value="252" />
+    <option name="y" value="179" />
     <option name="width" value="1440" />
     <option name="height" value="992" />
   </component>
@@ -250,11 +250,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\algorithm\basic\queue" />
       <recent name="E:\git\algorithm-js\algorithm\basic\array" />
       <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\indexedDB" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\sort" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\G" />
-      <recent name="E:\git\algorithm-js\algorithm\complicated\rbt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\git\algorithm-js\algorithm" />
@@ -347,14 +347,7 @@
       <workItem from="1555664360353" duration="2173000" />
       <workItem from="1555739887990" duration="2057000" />
       <workItem from="1555895266183" duration="26000" />
-      <workItem from="1555905528377" duration="2810000" />
-    </task>
-    <task id="LOCAL-00001" summary="append linklist">
-      <created>1553822210260</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1553822210260</updated>
+      <workItem from="1555905528377" duration="3980000" />
     </task>
     <task id="LOCAL-00002" summary="append linklist and doublylinkedlist">
       <created>1553851075376</created>
@@ -685,15 +678,28 @@
       <option name="project" value="LOCAL" />
       <updated>1555753744772</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="feat:增加栈">
+      <created>1555916337983</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1555916337983</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat:增加indexDB">
+      <created>1555916356512</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1555916356512</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81426000" />
+    <option name="totallyTimeSpent" value="82596000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="272" y="178" width="1440" height="992" extended-state="0" />
-    <editor active="true" />
+    <frame x="252" y="179" width="1440" height="992" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -759,7 +765,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:字符光标处理" />
     <MESSAGE value="feat:js集合实现" />
     <MESSAGE value="feat:js字典实现" />
     <MESSAGE value="feat:js哈希map实现" />
@@ -783,17 +788,11 @@
     <MESSAGE value="feat:增加图遍历" />
     <MESSAGE value="feat:排序" />
     <MESSAGE value="feat:增加拓扑排序" />
+    <MESSAGE value="feat:增加栈" />
     <MESSAGE value="feat:增加indexDB" />
     <option name="LAST_COMMIT_MESSAGE" value="feat:增加indexDB" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fcc-test/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linkList/doublyLinkedList/doublyLinkedList.js" />
     <entry file="file://$PROJECT_DIR$/linkList/linkList.js" />
     <entry file="file://$PROJECT_DIR$/dom/dom.html" />
@@ -1071,31 +1070,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="434">
-            <caret line="14" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="279">
             <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="434">
-            <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
           </first_editor>
           <second_editor />
         </state>
@@ -1132,8 +1111,38 @@
     <entry file="file://$PROJECT_DIR$/algorithm/basic/stack/stack.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="93">
-            <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <first_editor relative-caret-position="372">
+            <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="434">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="372">
+            <caret line="12" column="57" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/basic/queue/queue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="806">
+            <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>
