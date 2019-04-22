@@ -56,7 +56,7 @@
 
             // 2.创建对象存储空间 - 你可以理解成创建数据库的"表"
             IDBRequest.onupgradeneeded = (e)=>{
-                var _db = e.target.result;
+                let _db = e.target.result;
                 // 如果不存在某个"表"就创建
                 if (!_db.objectStoreNames.contains(C.tbName)) {
                     let objectStore = _db.createObjectStore(C.tbName,{
