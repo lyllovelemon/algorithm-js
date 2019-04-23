@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+	let name = 'jerry';
+
+	function sayHi () {
+		return 'Hi, I am ' + this.name;
+	}
+
+	let lucy = {
+		name: 'Lucy',
+		sayHi: sayHi,
+		sayAnotherHi: function () {
+			return sayHi();
+		}
+	};
+
+	let tomy = {
+		name: 'Tomy'
+	}
+
+	console.log(sayHi()); // 1:
+	console.log(lucy.sayHi()); // 2:
+	console.log(lucy.sayHi.apply(tomy)); // 3:
+	console.log(lucy.sayAnotherHi()); // 4:
+</script>
+</body>
+</html>
