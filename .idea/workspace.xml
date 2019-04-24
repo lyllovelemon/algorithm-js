@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/basic/this.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -56,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/algorithm/basic/queue/queue.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="243">
+              <first_editor relative-caret-position="875">
                 <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               </first_editor>
               <second_editor />
@@ -69,11 +70,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/basic/this.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -145,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/large-array.html" />
         <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/end.html" />
         <option value="$PROJECT_DIR$/fcc-test/Basic algorithm test/repeat.html" />
         <option value="$PROJECT_DIR$/js/extend.html" />
@@ -196,12 +205,12 @@
         <option value="$PROJECT_DIR$/algorithm/README.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/queue/queue.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/this.html" />
+        <option value="$PROJECT_DIR$/.gitattributes" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="273" />
-    <option name="y" value="115" />
+    <option name="x" value="639" />
     <option name="width" value="1440" />
     <option name="height" value="992" />
   </component>
@@ -355,14 +364,8 @@
       <workItem from="1555739887990" duration="2057000" />
       <workItem from="1555895266183" duration="26000" />
       <workItem from="1555905528377" duration="6412000" />
-      <workItem from="1556004809504" duration="542000" />
-    </task>
-    <task id="LOCAL-00005" summary="字符串练习2则">
-      <created>1553938127501</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1553938127501</updated>
+      <workItem from="1556004809504" duration="1174000" />
+      <workItem from="1556087926362" duration="45000" />
     </task>
     <task id="LOCAL-00006" summary="练习2则">
       <created>1554082165956</created>
@@ -700,16 +703,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555925455448</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="feat:增加this指向">
+      <created>1556005382748</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1556005382750</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85570000" />
+    <option name="totallyTimeSpent" value="86247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="273" y="115" width="1440" height="992" extended-state="0" />
+    <frame x="845" y="349" width="1440" height="992" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -720,7 +731,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3321343" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3321343" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33894232" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -773,7 +784,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:js哈希map实现" />
     <MESSAGE value="feat:新增对象" />
     <MESSAGE value="feat:增加对象设计模式" />
     <MESSAGE value="feat:增加原型链和继承" />
@@ -798,10 +808,10 @@
     <MESSAGE value="feat:增加indexDB" />
     <MESSAGE value="feat:增加队列" />
     <MESSAGE value="feat:目录增加队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:目录增加队列" />
+    <MESSAGE value="feat:增加this指向" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:增加this指向" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dom/dom.html" />
     <entry file="file://$PROJECT_DIR$/js/date.js" />
     <entry file="file://$PROJECT_DIR$/set/set.html" />
     <entry file="file://$PROJECT_DIR$/map/map.html" />
@@ -1106,6 +1116,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/basic/queue/queue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="875">
+            <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/basic/js/this.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/basic/caret/substring.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1138,23 +1161,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/basic/queue/queue.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="243">
-            <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/basic/js/this.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/basic/this.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
