@@ -16,5 +16,5 @@
 ## 算法
 + [递归]()
 + [动态规划]()
-+ [贪心算法]()
++ [贪心算法](https://github.com/lyllovelemon/algorithm-js/tree/master/algorithm/complicated/greedy)
 
