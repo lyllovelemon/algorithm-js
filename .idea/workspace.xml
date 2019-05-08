@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="feat:add dp miss directory">
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/task/task.md" afterDir="false" />
+    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,23 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <first_editor relative-caret-position="312">
+                <caret line="20" column="131" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="131" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="272">
+                <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -69,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -78,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -213,7 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/caret/substring.html" />
         <option value="$PROJECT_DIR$/set/set.html" />
         <option value="$PROJECT_DIR$/map/map.html" />
         <option value="$PROJECT_DIR$/complicated/map/map.html" />
@@ -264,12 +261,13 @@
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.js" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/task/task.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="400" />
-    <option name="y" value="53" />
+    <option name="x" value="183" />
+    <option name="y" value="118" />
     <option name="width" value="1440" />
     <option name="height" value="992" />
   </component>
@@ -296,6 +294,12 @@
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
+              <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
+              <item name="loop" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -305,23 +309,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/work/klb" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\algorithm" />
+      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\git\algorithm-js\algorithm\basic\queue" />
       <recent name="E:\git\algorithm-js\algorithm\basic\array" />
       <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\indexedDB" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\sort" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\G" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\algorithm-js\algorithm" />
-      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,21 +426,7 @@
       <workItem from="1556588147254" duration="463000" />
       <workItem from="1557215151017" duration="824000" />
       <workItem from="1557279952957" duration="516000" />
-      <workItem from="1557299674467" duration="1786000" />
-    </task>
-    <task id="LOCAL-00013" summary="函数柯里化">
-      <created>1554370376861</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1554370376861</updated>
-    </task>
-    <task id="LOCAL-00014" summary="feat:字符光标处理">
-      <created>1554712405009</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1554712405009</updated>
+      <workItem from="1557299674467" duration="4609000" />
     </task>
     <task id="LOCAL-00015" summary="feat:js集合实现">
       <created>1554721195644</created>
@@ -767,14 +757,29 @@
       <option name="project" value="LOCAL" />
       <updated>1556534935757</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="feat:add task">
+      <created>1557301476185</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1557301476185</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat:uesless">
+      <created>1557301522941</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1557301522942</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103525000" />
+    <option name="totallyTimeSpent" value="106348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="477" y="93" width="1440" height="992" extended-state="0" />
+    <frame x="988" y="29" width="1440" height="992" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -788,7 +793,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3381295" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3261391" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -841,8 +846,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:新增JSON" />
-    <MESSAGE value="feat:增加函数" />
     <MESSAGE value="feat:增加递归" />
     <MESSAGE value="feat:目录增加" />
     <MESSAGE value="feat:目录调整" />
@@ -866,7 +869,9 @@
     <MESSAGE value="feat:增加贪心算法" />
     <MESSAGE value="feat:add greedy" />
     <MESSAGE value="feat:add dp miss directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:add dp miss directory" />
+    <MESSAGE value="feat:add task" />
+    <MESSAGE value="feat:uesless" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:uesless" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/function/closure/README.md">
@@ -1129,7 +1134,7 @@
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1215,7 +1220,7 @@
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1229,19 +1234,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="312">
+            <caret line="20" column="131" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="131" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <first_editor relative-caret-position="272">
+            <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
