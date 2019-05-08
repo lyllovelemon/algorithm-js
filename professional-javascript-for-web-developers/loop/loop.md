@@ -14,5 +14,6 @@ Javascript是运行在浏览器的语言，js的单线程与它的用途有关�
 3.一旦执行栈所有同步任务执行完毕，依次读取任务队列的异步任务，压入执行栈
 4.主线程不断重复以上三步
 主线程从"任务队列"中读取事件，这个过程是循环不断的，所以整个的这种运行机制又称为Event Loop（事件循环）。
-
+![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
+u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
 ![Event-loop过程](https://github.com/lyllovelemon/algorithm-js/blob/master/professional-javascript-for-web-developers/loop/loop.png Event-loop过程)

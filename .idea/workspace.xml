@@ -33,7 +33,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="347">
-                <caret line="17" column="129" selection-start-line="17" selection-start-column="129" selection-end-line="17" selection-end-column="129" />
+                <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               </first_editor>
               <second_editor />
             </state>
@@ -425,14 +425,7 @@
       <workItem from="1556588147254" duration="463000" />
       <workItem from="1557215151017" duration="824000" />
       <workItem from="1557279952957" duration="516000" />
-      <workItem from="1557299674467" duration="4816000" />
-    </task>
-    <task id="LOCAL-00016" summary="feat:js字典实现">
-      <created>1554722373488</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1554722373488</updated>
+      <workItem from="1557299674467" duration="4875000" />
     </task>
     <task id="LOCAL-00017" summary="feat:js哈希map实现">
       <created>1554723298643</created>
@@ -770,11 +763,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557306472851</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="feat:增加事件循环">
+      <created>1557306620663</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1557306620663</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106555000" />
+    <option name="totallyTimeSpent" value="106614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="191" y="8" width="1440" height="992" extended-state="0" />
@@ -1247,7 +1247,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="347">
-            <caret line="17" column="129" selection-start-line="17" selection-start-column="129" selection-end-line="17" selection-end-column="129" />
+            <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
