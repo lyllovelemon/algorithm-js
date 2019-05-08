@@ -12,3 +12,10 @@
 
 ## JSON
 + [JSON](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/json)
+
+## AOP
++ AOP
+
+## js机制
++ [宏任务和微任务](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/task)
++ event-loop事件循环
