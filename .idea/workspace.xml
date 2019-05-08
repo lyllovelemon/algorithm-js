@@ -32,12 +32,17 @@
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="347">
-                <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <first_editor relative-caret-position="296">
+                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/loop.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -47,16 +52,6 @@
               <first_editor relative-caret-position="262">
                 <caret line="48" selection-start-line="48" selection-end-line="48" />
               </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -286,7 +281,7 @@
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="fcc-test" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
@@ -320,11 +315,11 @@
       <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\image" />
       <recent name="E:\git\algorithm-js\algorithm\basic\queue" />
       <recent name="E:\git\algorithm-js\algorithm\basic\array" />
       <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\indexedDB" />
       <recent name="E:\git\algorithm-js\algorithm\complicated\sort" />
-      <recent name="E:\git\algorithm-js\algorithm\complicated\G" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,21 +420,7 @@
       <workItem from="1556588147254" duration="463000" />
       <workItem from="1557215151017" duration="824000" />
       <workItem from="1557279952957" duration="516000" />
-      <workItem from="1557299674467" duration="4875000" />
-    </task>
-    <task id="LOCAL-00017" summary="feat:js哈希map实现">
-      <created>1554723298643</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1554723298643</updated>
-    </task>
-    <task id="LOCAL-00018" summary="feat:目录调整">
-      <created>1554723385178</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1554723385178</updated>
+      <workItem from="1557299674467" duration="5117000" />
     </task>
     <task id="LOCAL-00019" summary="feat:目录调整">
       <created>1554859461098</created>
@@ -770,14 +751,28 @@
       <option name="project" value="LOCAL" />
       <updated>1557306620663</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="feat:pic test">
+      <created>1557306685219</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1557306685219</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat:pic test">
+      <created>1557306828815</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1557306828815</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106614000" />
+    <option name="totallyTimeSpent" value="106856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="8" width="1440" height="992" extended-state="0" />
+    <frame x="480" y="70" width="1440" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
@@ -792,7 +787,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3261391" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32733813" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -845,7 +840,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:目录增加" />
     <MESSAGE value="feat:目录调整" />
     <MESSAGE value="feat:数据结构调整" />
     <MESSAGE value="feat:主目录调整" />
@@ -870,19 +864,10 @@
     <MESSAGE value="feat:add task" />
     <MESSAGE value="feat:uesless" />
     <MESSAGE value="feat:增加事件循环" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:增加事件循环" />
+    <MESSAGE value="feat:pic test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:pic test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/function/closure/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="248">
-            <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/object/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1243,11 +1228,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/loop.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="347">
-            <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <first_editor relative-caret-position="296">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
         </state>

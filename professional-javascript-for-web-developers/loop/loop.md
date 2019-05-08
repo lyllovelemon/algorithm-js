@@ -14,4 +14,3 @@ Javascript是运行在浏览器的语言，js的单线程与它的用途有关�
 3.一旦执行栈所有同步任务执行完毕，依次读取任务队列的异步任务，压入执行栈
 4.主线程不断重复以上三步
 主线程从"任务队列"中读取事件，这个过程是循环不断的，所以整个的这种运行机制又称为Event Loop（事件循环）。
-![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
