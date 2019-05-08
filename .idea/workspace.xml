@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <first_editor relative-caret-position="347">
+                <caret line="17" column="129" selection-start-line="17" selection-start-column="129" selection-end-line="17" selection-end-column="129" />
               </first_editor>
               <second_editor />
             </state>
@@ -266,8 +265,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="183" />
-    <option name="y" value="118" />
+    <option name="x" value="191" />
+    <option name="y" value="8" />
     <option name="width" value="1440" />
     <option name="height" value="992" />
   </component>
@@ -426,14 +425,7 @@
       <workItem from="1556588147254" duration="463000" />
       <workItem from="1557215151017" duration="824000" />
       <workItem from="1557279952957" duration="516000" />
-      <workItem from="1557299674467" duration="4609000" />
-    </task>
-    <task id="LOCAL-00015" summary="feat:js集合实现">
-      <created>1554721195644</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1554721195644</updated>
+      <workItem from="1557299674467" duration="4816000" />
     </task>
     <task id="LOCAL-00016" summary="feat:js字典实现">
       <created>1554722373488</created>
@@ -771,17 +763,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557301522942</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="feat:增加事件循环">
+      <created>1557306472844</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1557306472851</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106348000" />
+    <option name="totallyTimeSpent" value="106555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="988" y="29" width="1440" height="992" extended-state="0" />
+    <frame x="191" y="8" width="1440" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -793,7 +792,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3261391" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3261391" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -846,7 +845,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:增加递归" />
     <MESSAGE value="feat:目录增加" />
     <MESSAGE value="feat:目录调整" />
     <MESSAGE value="feat:数据结构调整" />
@@ -871,7 +869,8 @@
     <MESSAGE value="feat:add dp miss directory" />
     <MESSAGE value="feat:add task" />
     <MESSAGE value="feat:uesless" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:uesless" />
+    <MESSAGE value="feat:增加事件循环" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:增加事件循环" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/function/closure/README.md">
@@ -1247,8 +1246,8 @@
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <first_editor relative-caret-position="347">
+            <caret line="17" column="129" selection-start-line="17" selection-start-column="129" selection-end-line="17" selection-end-column="129" />
           </first_editor>
           <second_editor />
         </state>
