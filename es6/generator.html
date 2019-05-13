@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>generator</title>
+</head>
+<body>
+<script>
+    // function* helloGenerator() {
+    //     yield 'hello';
+    //     yield 'world';
+    //     return 'ending';
+	// }
+	// let hw=helloGenerator();
+    // hw.next();
+    // hw.next();
+    // hw.next();
+    // hw.next();
+    function* f() {
+        for(let i=0;true;i++){
+        	let reset=yield i;
+        	if(reset){
+        		i=-1;
+            }
+        }
+	}
+	let g=f();
+    g.next();
+</script>
+</body>
+</html>
