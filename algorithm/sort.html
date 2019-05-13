@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<body onload="setInterval(()=>document.body.innerHTML=new Date().toLocaleString().slice(10,19))">
 <script>
-	function bouncer(arr) {
-		// 请把你的代码写在这里
-        let newArray=arr.filter(e=>{
-        	return Boolean(e)==true;
-        })
-		console.log(newArray);
-	}
+	let romanToInt = function(s) {
+		let romanObj = {'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M': 1000};
+        let max = 0,result = 0;
+        for (let i = s.length - 1; i >= 0; i--) {
+            let currRoman = s[i];
+            let currVal = romanObj[currRoman];
+            result += currVal >= max ? currVal : -currVal;
+            max = Math.max(max, currVal);
 
-	bouncer([7, "ate", "", false, 9]);
+        }
+        console.log(result);
+
+	};
+	romanToInt("MCMXCIV");
+	// for(i=0;++i<101;console.log(i%5?f||i:f+'Buzz'))f=i%3?'':'Fizz'
+
+	// function bouncer(arr) {
+	// 	// 请把你的代码写在这里
+    //     let newArray=arr.filter(e=>{
+    //     	return Boolean(e)==true;
+    //     })
+	// 	console.log(newArray);
+	// }
+    //
+	// bouncer([7, "ate", "", false, 9]);
 
 </script>
 </body>
