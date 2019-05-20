@@ -83,3 +83,29 @@ bonus.setStrategy(new performaceS());//设置奖金策略
 
 console.log(bonus.getBonus());
 ```
+还有一种更简单直接的方法，就是把strategy直接定义为函数。
+```ecmascript 6
+let strategy={
+	"S":function(salary) {
+	  return salary*4;
+	},
+	"A":function(salary) {
+	  return salary*3;
+	},
+	"B":function(salary) {
+	  return salary*2;
+	}
+};
+let calculateBonus=function(level,salary) {
+  return strategy[level](salary);
+};
+console.log('S',20000);
+console.log('A',10000);
+```
+## 优缺点
++ 策略模式利用组合、委托和多态的概念，可以有效避免多重条件语句
++ 提供对开放-封闭模式的完美支持，可扩展性强
++ 可复用性强
++ 是继承的一种更轻便的替代方案
+
+缺点是需要暴露所有方法
