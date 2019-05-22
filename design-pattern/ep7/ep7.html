@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>万能遥控器</title>
+</head>
+<body>
+<button id="btn">按我</button>
+<script>
+    let MacroCommand=function(){
+    return{
+    	commandList:[],
+        add:function (command) {
+            this.commandList.push(command);
+		},
+        execute:function () {
+            for(let i=0,command;command=this.commandList[i++];){
+            	command.execute();
+            }
+		}
+    }
+    };
+    let openAcCommand={
+    execute:function () {
+        console.log('打开空调');
+	},
+        add:function () {
+            throw new Error ('叶对象不能添加子节点');
+		}
+    };
+    let openTvCommand={
+    	execute:function () {
+            console.log('打开电视');
+		}
+    };
+    let openSoundCommand={
+    	execute:function () {
+            console.log('打开音响');
+		}
+    };
+    let closeDoorCommand={
+    	execute:function () {
+            console.log('关门');
+		}
+    };
+    let openPcCommand={
+    	execute:function () {
+            console.log('开电脑');
+		}
+    };
+    let macroCommand=MacroCommand();
+    macroCommand.add(openAcCommand);
+    macroCommand.add(openPcCommand);
+    macroCommand.add(openSoundCommand);
+    macroCommand.add(openTvCommand);
+    macroCommand.add(closeDoorCommand);
+
+    //最后绑定一个超级命令
+    let setCommand=(function (command) {
+        document.getElementById('btn').onclick=function () {
+            command.execute();
+		}
+	})(macroCommand)
+</script>
+</body>
+</html>
