@@ -6,8 +6,8 @@
 5. [发布-订阅模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep5/ep5.md)
 6. [命令模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep6/ep6.md)
 7. [组合模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep7/ep7.md)
-8. [享元模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep8/ep8.md)
-9. [模板方法模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep9/ep9.md)
+8. [享元模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep9/ep9.md)
+9. [模板方法模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep8/ep8.md)
 10. [职责链模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep10/ep10.md)
 11. 中介者模式
 12. 装饰者模式
