@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+	let offLightState=function(light) {
+		this.light=light;
+	};
+	offLightState.prototype.buttonWasPressed=function() {
+		console.log('弱光');
+		this.light.setState(this.light.weakLightState);
+	};
+	let weakLightState=function(light) {
+		this.light=light;
+	};
+	weakLightState.prototype.buttonWasPressed=function() {
+		console.log('强光');
+		this.light.setState(this.light.strongLightState);
+	};
+	let strongLightState=function(light) {
+		this.light=light;
+	};
+	strongLightState.prototype.buttonWasPressed=function() {
+		console.log('关灯');
+		this.light.setState(this.light.offLightState);
+	};
+	let Light=function() {
+		this.offLightState=new offLightState(this);
+		this.weakLightState=new weakLightState(this);
+		this.strongLightState=new strongLightState(this);
+		this.button=null;
+	};
+	/*将buttonWasPressed()行为委托给light对象*/
+	Light.prototype.init=function() {
+		let button=document.createElement('button'),self=this;
+		this.button=document.body.appendChild(button);
+		this.button.innerHTML='开关';
+
+		this.curState=this.offLightState;
+
+		this.button.onclick=function() {
+			self.curState.buttonWasPressed();
+		}
+	};
+	/*切换按钮状态方法*/
+	Light.prototype.setState=function(newState) {
+		this.curState=newState;
+	};
+	let light=new Light();
+	light.init();
+</script>
+</body>
+</html>
