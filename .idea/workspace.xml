@@ -53,10 +53,11 @@
         <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="399">
-                <caret line="228" column="17" selection-start-line="228" selection-start-column="17" selection-end-line="228" selection-end-column="17" />
+              <first_editor relative-caret-position="360">
+                <caret line="247" column="11" selection-start-line="247" selection-start-column="11" selection-end-line="247" selection-end-column="11" />
                 <folding>
                   <element signature="e#63#68#0" />
+                  <element signature="e#2446#5373#0" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -268,8 +269,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="883" />
-    <option name="y" value="122" />
+    <option name="x" value="850" />
+    <option name="y" value="147" />
     <option name="width" value="1440" />
     <option name="height" value="992" />
   </component>
@@ -435,7 +436,7 @@
       <workItem from="1557215151017" duration="824000" />
       <workItem from="1557279952957" duration="516000" />
       <workItem from="1557299674467" duration="5117000" />
-      <workItem from="1558948621103" duration="6099000" />
+      <workItem from="1558948621103" duration="6791000" />
     </task>
     <task id="LOCAL-00019" summary="feat:目录调整">
       <created>1554859461098</created>
@@ -784,10 +785,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112955000" />
+    <option name="totallyTimeSpent" value="113647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="883" y="122" width="1440" height="992" extended-state="0" />
+    <frame x="850" y="147" width="1440" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26449275" />
@@ -1246,10 +1247,11 @@
     <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="228" column="17" selection-start-line="228" selection-start-column="17" selection-end-line="228" selection-end-column="17" />
+          <first_editor relative-caret-position="360">
+            <caret line="247" column="11" selection-start-line="247" selection-start-column="11" selection-end-line="247" selection-end-column="11" />
             <folding>
               <element signature="e#63#68#0" />
+              <element signature="e#2446#5373#0" />
             </folding>
           </first_editor>
           <second_editor />
