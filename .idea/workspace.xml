@@ -19,19 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/design-pattern/main.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="375">
-                <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+                <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design-pattern/ep15.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -136,14 +136,14 @@
         <option value="$PROJECT_DIR$/design-pattern/ep13/ep13.html" />
         <option value="$PROJECT_DIR$/design-pattern/ep13/ep13.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/proxy.html" />
-        <option value="$PROJECT_DIR$/design-pattern/main.md" />
         <option value="$PROJECT_DIR$/design-pattern/ep15.md" />
+        <option value="$PROJECT_DIR$/design-pattern/main.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="306" />
-    <option name="y" value="418" />
+    <option name="x" value="643" />
+    <option name="y" value="175" />
     <option name="width" value="1440" />
     <option name="height" value="992" />
   </component>
@@ -316,7 +316,7 @@
       <workItem from="1557299674467" duration="5117000" />
       <workItem from="1558948621103" duration="7490000" />
       <workItem from="1559008471077" duration="1906000" />
-      <workItem from="1559040546679" duration="771000" />
+      <workItem from="1559040546679" duration="942000" />
     </task>
     <task id="LOCAL-00019" summary="feat:目录调整">
       <created>1554859461098</created>
@@ -665,10 +665,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117023000" />
+    <option name="totallyTimeSpent" value="117194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="306" y="418" width="1440" height="992" extended-state="0" />
+    <frame x="643" y="175" width="1440" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27173913" />
@@ -1121,21 +1121,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/main.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/ep15.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="435">
             <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/main.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
           </first_editor>
           <second_editor />
         </state>

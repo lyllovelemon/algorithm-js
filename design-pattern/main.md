@@ -9,8 +9,8 @@
 8. [享元模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep9/ep9.md)
 9. [模板方法模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep8/ep8.md)
 10. [职责链模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep10/ep10.md)
-11. 中介者模式
-12. 装饰者模式
-13. 状态模式
+11. [中介者模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep11/ep11.md)
+12. [装饰者模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep12/ep12.md)
+13. [状态模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep13/ep13.md)
 14. [适配器模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep14/ep14.md)
-15. [编程技巧]()
+15. [编程技巧](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep15.md)
