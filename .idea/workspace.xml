@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design-pattern/ep13/ep13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep12/ep12.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/ep12/ep12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/basic/proxy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/ep15.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design-pattern/ep13/ep13.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/ep13/ep13.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/main.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/main.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,28 +23,8 @@
         <entry file="file://$PROJECT_DIR$/design-pattern/main.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-75" />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/ep12/ep12.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="322">
-                <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="375">
+                <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -50,15 +32,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.md">
+        <entry file="file://$PROJECT_DIR$/design-pattern/ep15.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="247" column="11" selection-start-line="247" selection-start-column="11" selection-end-line="247" selection-end-column="11" />
-                <folding>
-                  <element signature="e#63#68#0" />
-                  <element signature="e#2446#5373#0" />
-                </folding>
+              <first_editor relative-caret-position="435">
+                <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,10 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.html">
+        <entry file="file://$PROJECT_DIR$/algorithm/basic/proxy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="100">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -78,113 +56,8 @@
         <entry file="file://$PROJECT_DIR$/design-pattern/ep14/ep14.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/slice/slice.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/change/change.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/sort.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/queue/queue.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="875">
-                <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/js/this.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/this.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/caret/substring.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/caret/caret.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/dom/dom.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/js/closure.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/js/extend.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/linkList.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/linkList/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="25">
-                <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/basic/stack/stack.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="900">
-                <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+              <first_editor relative-caret-position="-200">
+                <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -214,9 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/complicated/map/map.html" />
-        <option value="$PROJECT_DIR$/complicated/map/hashMap.html" />
-        <option value="$PROJECT_DIR$/complicated/map/README.md" />
         <option value="$PROJECT_DIR$/basic/filter.html" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/object/object.html" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/object/README.md" />
@@ -265,12 +135,15 @@
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" />
         <option value="$PROJECT_DIR$/design-pattern/ep13/ep13.html" />
         <option value="$PROJECT_DIR$/design-pattern/ep13/ep13.md" />
+        <option value="$PROJECT_DIR$/algorithm/basic/proxy.html" />
+        <option value="$PROJECT_DIR$/design-pattern/main.md" />
+        <option value="$PROJECT_DIR$/design-pattern/ep15.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="850" />
-    <option name="y" value="147" />
+    <option name="x" value="306" />
+    <option name="y" value="418" />
     <option name="width" value="1440" />
     <option name="height" value="992" />
   </component>
@@ -289,13 +162,18 @@
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="ep13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
@@ -436,7 +314,9 @@
       <workItem from="1557215151017" duration="824000" />
       <workItem from="1557279952957" duration="516000" />
       <workItem from="1557299674467" duration="5117000" />
-      <workItem from="1558948621103" duration="6791000" />
+      <workItem from="1558948621103" duration="7490000" />
+      <workItem from="1559008471077" duration="1906000" />
+      <workItem from="1559040546679" duration="771000" />
     </task>
     <task id="LOCAL-00019" summary="feat:目录调整">
       <created>1554859461098</created>
@@ -785,13 +665,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113647000" />
+    <option name="totallyTimeSpent" value="117023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="850" y="147" width="1440" height="992" extended-state="0" />
+    <frame x="306" y="418" width="1440" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26449275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27173913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -803,7 +683,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34052756" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34052756" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -884,23 +764,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:pic test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/complicated/set/set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3503">
-          <caret line="113" column="15" lean-forward="true" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/complicated/set/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="4" selection-start-column="4" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/hashMap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1240">
@@ -1124,6 +987,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/ep12/ep12.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="16" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3925">
+            <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
+            <folding>
+              <element signature="e#63#68#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/basic/slice/slice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1203,11 +1104,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
+    <entry file="file://$PROJECT_DIR$/algorithm/basic/proxy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/ep14/ep14.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="322">
-            <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <first_editor relative-caret-position="-200">
+            <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
@@ -1216,43 +1124,18 @@
     <entry file="file://$PROJECT_DIR$/design-pattern/main.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-75" />
+          <first_editor relative-caret-position="375">
+            <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/ep12/ep12.md">
+    <entry file="file://$PROJECT_DIR$/design-pattern/ep15.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/ep14/ep14.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="247" column="11" selection-start-line="247" selection-start-column="11" selection-end-line="247" selection-end-column="11" />
-            <folding>
-              <element signature="e#63#68#0" />
-              <element signature="e#2446#5373#0" />
-            </folding>
+          <first_editor relative-caret-position="435">
+            <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

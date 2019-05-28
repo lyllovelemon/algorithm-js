@@ -13,3 +13,4 @@
 12. 装饰者模式
 13. 状态模式
 14. [适配器模式](https://github.com/lyllovelemon/algorithm-js/blob/master/design-pattern/ep14/ep14.md)
+15. [编程技巧]()

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 proxy</title>
+</head>
+<body>
+<script>
+    /*2.proxy作为某个对象的原型*/
+    let proxy=new Proxy({},{
+    	get(obj,prop){
+    		return 'proxyReturn'
+        }
+    });
+    let obj={a:1};
+    Object.setPrototypeOf(obj,proxy);
+    console.log(obj.a);//1
+    console.log(obj.b);//proxyReturn
+    /*访问obj.b属性时,由于b在obj对象中不存在，因此会访问到原型中是否存在该属性，即访问proxy对象，由此触发了代理函数*/
+
+</script>
+</body>
+</html>
