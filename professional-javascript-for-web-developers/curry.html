@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6一行代码实现函数柯里化</title>
+</head>
+<body>
+<script>
+    /*柯里化函数的主要作用是延迟执行*/
+    const curry=(fn,arr=[])=>(...args)=> ((a,b)=>b.length===0? fn(...a):curry(fn,a))([...arr,...args],[...args])//把arr和args摊开为一个数组赋值给a}
+    let curryPlus=curry((a,b,c,d)=>a+b+c+d);
+    curryPlus(1,2)(3,4)
+    curryPlus(1,2,4)(3)
+</script>
+</body>
+</html>
