@@ -17,7 +17,7 @@
 + [JSON](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/json)
 
 ## AOP
-+ [AOP](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/AOP/AOP.md)
++ [AOP](https://github.com/lyllovelemon/algorithm-js/blob/master/professional-javascript-for-web-developers/AOP/AOP.md)
 
 ## js机制
 + [宏任务和微任务](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/task/task.md)
