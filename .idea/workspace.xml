@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/assign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/assign.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.md" afterDir="false" />
+    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="feat:add this">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.js" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,12 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+              <first_editor relative-caret-position="125">
+                <caret line="14" column="121" selection-start-line="14" selection-start-column="121" selection-end-line="14" selection-end-column="121" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,12 +70,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="185">
-                <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <first_editor relative-caret-position="122">
+                <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+                <folding>
+                  <element signature="e#175#302#0" />
+                  <element signature="e#374#539#0" />
+                  <element signature="e#412#520#0" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="33">
+                <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -185,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/json/README.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/function/README.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/function/basic/README.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/function/factorial/README.md" />
@@ -232,16 +243,17 @@
         <option value="D:/software/android/bin/idea.properties" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/assign.html" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/assign.md" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.js" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.html" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.md" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.md" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="413" />
+    <option name="x" value="385" />
+    <option name="y" value="47" />
     <option name="width" value="1440" />
     <option name="height" value="982" />
   </component>
@@ -262,6 +274,12 @@
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
+              <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
@@ -407,21 +425,7 @@
       <workItem from="1559094338786" duration="631000" />
       <workItem from="1559200764550" duration="274000" />
       <workItem from="1560160805235" duration="1737000" />
-      <workItem from="1560396430965" duration="6891000" />
-    </task>
-    <task id="LOCAL-00019" summary="feat:目录调整">
-      <created>1554859461098</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1554859461098</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feat:目录调整">
-      <created>1554861280522</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1554861280522</updated>
+      <workItem from="1560396430965" duration="10897000" />
     </task>
     <task id="LOCAL-00021" summary="feat:新增对象">
       <created>1554863388564</created>
@@ -752,17 +756,31 @@
       <option name="project" value="LOCAL" />
       <updated>1557306828815</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="feat:add this">
+      <created>1560419161371</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1560419161372</updated>
+    </task>
+    <task id="LOCAL-00069" summary="feat:add aop to reame">
+      <created>1560419216039</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1560419216039</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126729000" />
+    <option name="totallyTimeSpent" value="130735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="413" width="1440" height="982" extended-state="0" />
+    <frame x="385" y="47" width="1440" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29275364" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29275364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -774,7 +792,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.44053397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4563107" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -827,8 +845,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:目录调整" />
-    <MESSAGE value="feat:数据结构调整" />
     <MESSAGE value="feat:主目录调整" />
     <MESSAGE value="feat:增加树" />
     <MESSAGE value="feat:增加红黑树概述" />
@@ -852,7 +868,9 @@
     <MESSAGE value="feat:uesless" />
     <MESSAGE value="feat:增加事件循环" />
     <MESSAGE value="feat:pic test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:pic test" />
+    <MESSAGE value="feat:add this" />
+    <MESSAGE value="feat:add aop to reame" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add aop to reame" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/algorithm/complicated/map/map.html">
@@ -961,14 +979,6 @@
           <first_editor relative-caret-position="225">
             <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -1201,16 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1228,8 +1228,33 @@
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="185">
-            <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <first_editor relative-caret-position="122">
+            <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+            <folding>
+              <element signature="e#175#302#0" />
+              <element signature="e#374#539#0" />
+              <element signature="e#412#520#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="33">
+            <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="14" column="121" selection-start-line="14" selection-start-column="121" selection-end-line="14" selection-end-column="121" />
           </first_editor>
           <second_editor />
         </state>
