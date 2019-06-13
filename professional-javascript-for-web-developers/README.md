@@ -10,6 +10,8 @@
 
 + [原型链与继承](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/inherit)
 
++ [深浅拷贝](https://github.com/lyllovelemon/algorithm-js/blob/master/professional-javascript-for-web-developers/assign.md)
+
 + [this]()
 ## JSON
 + [JSON](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/json)
@@ -22,4 +24,4 @@
 + [event-loop事件循环](https://github.com/lyllovelemon/algorithm-js/tree/master/professional-javascript-for-web-developers/loop/loop.md)
 
 ## 高阶函数
-+ [函数柯里化]
++ 函数柯里化

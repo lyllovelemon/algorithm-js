@@ -2,9 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+// const source={
+// 	food:{
+// 		japaneseFood:['sushi','udon']
+//     },
+//     name:'Yuki'
+// };
+// const copy=Object.assign({},source);
+// source.name='sayaka';
+// source.food.japaneseFood=[...source.food.japaneseFood,'natto'];
+// console.log(copy.name);
+// console.log(copy.food.japaneseFood);
+// console.log(copy.food===source.food);
+//拷贝之后copy.food和source.food指向同一个堆
+    //拷贝的源对象是按顺序读取，一旦中途出错，将停止拷贝
+    // const target=Object.defineProperty({},'foo',{
+    // 	value:1,
+    //     writable:false
+    // });
+    // Object.assign(
+    //    target,
+    //    {
+    //    	bar:2
+    //    },
+    //    {
+    //    	foo2:3, foo:3, foo3:3
+    //    },
+    //    {
+    //    	baz:4
+    //    }
+    // );
+    // console.log(target.bar);
+    // console.log(target.foo2);
+    // console.log(target.foo);
+    // console.log(target.foo3);
+    // console.log(target.baz);
+    //
+let obj1={
+	'name':'sakura',
+    'age':'18',
+    'language':[1,[2,3],[4,5]]
+};
+let obj2=obj1;
+let obj3=shallowCopy(obj1);
+function shallowCopy(src) {
+    let dst={};
+    for(let prop in src){
+    	if(src.hasOwnProperty(prop)){
+    		dst[prop]=src[prop]
+        }
+    }
+    return dst;
+}
+obj2.name='yuki';
+obj3.age='20';
+
+obj2.language[1]=['二','三'];
+obj3.language[2]=['四','五'];
+
+console.log(obj1);
+
+console.log(obj2);
+
+console.log(obj3);
+</script>
 </body>
 </html>

@@ -2,33 +2,26 @@
  * Created by admin on 2019/5/16.
  * @author lemon<李亦黎>
  */
-// function Person() {
-// 	'use strict'
-// 	this.age=0;
-// 	let closure='123';
-// 	setInterval(function growUp() {
-// 		this.age++;
-// 		console.log(closure);
-// 	},1000);
-// }
-// let p=new Person();
-let adder = {
-	base : 1,
-	
-	add : function(a) {
-		let f = v => v + this.base;
-		return f(a);
-	},
-	
-	addThruCall: function(a) {
-		let f = v => v + this.base;
-		let b = {
-			base : 2
-		};
-		
-		return f.call(b, a);
+function foo(num) {
+	console.log('foo:'+num);
+	foo.count++;
+}
+foo.count=0;
+let i;
+for(i=0;i<10;i++){
+	if(i>5){
+		foo(i);
 	}
-};
-
-console.log(adder.add(1));
-console.log(adder.addThruCall(1));
+}
+// let obj={
+// 	count:0,
+// 	cool:function coolFn() {
+// 		if(this.count<1){
+// 			setTimeout(()=>{
+// 				this.count++;
+// 				console.log('awesome',this.count);
+// 			},100);
+// 		}
+// 	}
+// };
+// obj.cool();
