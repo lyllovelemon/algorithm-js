@@ -76,3 +76,41 @@ let handler={
 let p=new Proxy(target,handler);
 p();//"proxy"
 ```
++ construct():用于拦截new操作符，为了使new操作符在新的proxy对象生效，用于初始化
+代理的目标对象自身必须具有[[Construct]]方法；它接收三个参数，目标对象target，
+构造函数参数列表argumentsList以及最初实例对象时，new命令作用的构造函数。
+```javascript
+let p=new Proxy(function(){},{
+	construct:function(target,argumentsList,newTarget){
+		console.log(newTarget===p);
+		console.log("called"+argumentsList.join(','));
+		return { value:(argumentsList[0]+argumentsList[1])*10}
+	}
+})
+console.log(new p(1,2).value);
+```
+输出30，该方法必须返回一个对象，否则异常。
+```javascript
+let p=new Proxy(function(){},{
+	construct:function(target,argumentsList,newTarget){
+		return 2;
+	}
+})
+console.log(new p(1,2))//UnCaught TypeError
+```
++ has():判断是否具有某个属性,接收两个参数，目标对象target和要检查的属性prop,
+并返回一个Boolean值。
+```javascript
+let p=new Proxy({},{
+	has:function(target,prop){
+		if(prop[0]==='_'){
+			console.log("It is a private property.")
+			return false;
+		}
+		return true;
+	}
+})
+console.log('a' in p);//true
+console.log('_a' in p);//It is a private property.
+//false
+```
