@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>我是爸爸</h1>
+<p>send Message: <button id="message-btn">Hi,lemon</button></p>
+<p>Got Messge:</p>
+<div id="result"></div>
+<script>
+    function bindEvent(element,eventName,eventHandler){
+    	if(element.addEventListener){
+    		element.addEventListener(eventName,eventHandler,false);
+        }
+    	else if(element.attachEvent){
+    		element.attachEvent('on'+eventName,eventHandler);
+        }
+    }
+
+    //create iframe
+    let iframeSource='';
+    let iframe=document.createElement('iframe');
+    iframe.setAttribute('src',iframeSource);
+    iframe.setAttribute('id','a');
+    iframe.style.width=400+'px';
+    iframe.style.height=300+'px';
+    document.body.appendChild(iframe);
+
+    //send information to child iframe
+    let iframe1=document.getElementById('a'),
+    messageButton=document.getElementById("message-btn"),
+    result=document.getElementById('result');
+
+
+    let sendMessge=function(msg){
+		iframe1.contentWindow.postMessage(msg,'*');
+    }
+
+</script>
+</body>
+</html>

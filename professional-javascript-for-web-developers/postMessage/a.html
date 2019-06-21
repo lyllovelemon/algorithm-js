@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body{
+        background-color: #D53C2F;
+        color: white;
+        font-size: 16px;
+    }
+</style>
+<body>
+<h1>Hello there,I`m a iframe</h1>
+<p>send Message <button id="message-btn">Hi,parent</button></p>
+<p>Got Message</p>
+<div id="result"></div>
+<script>
+    function bindEvent(element,eventName,eventHandler){
+    	if(element.addEventListener){
+    		element.addEventListener(eventName,eventHandler,false);
+        }
+    	else if(element.attachEvent){
+			element.attachEvent('on'+eventName,eventHandler);
+        }
+    }
+    let sendMessage=function (msg) {
+        window.parent.postMessage(msg,'*');
+	}
+	let result=document.getElementById('result'),
+       messageButton=document.getElementById('message-btn');
+
+    //listen to message from parent event
+    bindEvent(window,'message',function (e) {
+        result.innerHTML=e.data;
+	})
+
+    bindEvent(messageButton,'click',function (e) {
+        let random=Math.random();
+        sendMessage(' '+random);
+	})
+</script>
+</body>
+</html>

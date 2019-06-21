@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="feat:add this">
+      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/es6/proxy.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,14 +17,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/proxy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="297">
-                <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+              <first_editor relative-caret-position="234">
+                <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
+                <folding>
+                  <element signature="e#82#136#0" />
+                  <element signature="e#260#468#0" />
+                  <element signature="e#634#920#0" />
+                  <element signature="e#996#1401#0" />
+                  <element signature="e#1484#1644#0" />
+                  <element signature="e#1792#2066#0" />
+                  <element signature="e#2090#2253#0" />
+                  <element signature="e#2318#2579#0" />
+                </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -57,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/function/factorial/README.md" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/function/closure/README.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/linkList/README.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/map/README.md" />
@@ -108,14 +135,16 @@
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
         <option value="$PROJECT_DIR$/es6/proxy.html" />
         <option value="$PROJECT_DIR$/es6/proxy.md" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="206" />
-    <option name="y" value="332" />
-    <option name="width" value="1440" />
-    <option name="height" value="982" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="251" />
+    <option name="y" value="307" />
+    <option name="width" value="1386" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -133,18 +162,13 @@
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="es6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
-              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="postMessage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
@@ -295,6 +319,9 @@
       <workItem from="1560478502384" duration="5916000" />
       <workItem from="1560735711284" duration="1357000" />
       <workItem from="1560856971439" duration="521000" />
+      <workItem from="1560858238118" duration="1064000" />
+      <workItem from="1560861668682" duration="70000" />
+      <workItem from="1561111231290" duration="1683000" />
     </task>
     <task id="LOCAL-00021" summary="feat:新增对象">
       <created>1554863388564</created>
@@ -643,13 +670,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139143000" />
+    <option name="totallyTimeSpent" value="141960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="206" y="332" width="1440" height="982" extended-state="0" />
+    <frame x="25" y="433" width="1440" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31014493" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32391304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -661,7 +688,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4563107" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4563107" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -742,23 +769,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:add aop to reame" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/model/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-47">
-            <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes" />
     <entry file="file://$PROJECT_DIR$/date.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1118,10 +1128,34 @@
     <entry file="file://$PROJECT_DIR$/es6/proxy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="297">
-            <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <first_editor relative-caret-position="234">
+            <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
+            <folding>
+              <element signature="e#82#136#0" />
+              <element signature="e#260#468#0" />
+              <element signature="e#634#920#0" />
+              <element signature="e#996#1401#0" />
+              <element signature="e#1484#1644#0" />
+              <element signature="e#1792#2066#0" />
+              <element signature="e#2090#2253#0" />
+              <element signature="e#2318#2579#0" />
+            </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
         </state>
       </provider>
     </entry>
