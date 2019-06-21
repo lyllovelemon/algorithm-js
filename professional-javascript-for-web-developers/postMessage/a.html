@@ -27,17 +27,19 @@
     }
     let sendMessage=function (msg) {
         window.parent.postMessage(msg,'*');
-	}
+	};
 	let result=document.getElementById('result'),
        messageButton=document.getElementById('message-btn');
 
     //listen to message from parent event
     bindEvent(window,'message',function (e) {
+    	console.log('a data',e.data);
         result.innerHTML=e.data;
-	})
+	});
 
     bindEvent(messageButton,'click',function (e) {
         let random=Math.random();
+        console.log('random',random);
         sendMessage(' '+random);
 	})
 </script>

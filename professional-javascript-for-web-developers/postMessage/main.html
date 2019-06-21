@@ -33,8 +33,12 @@
     messageButton=document.getElementById("message-btn"),
     result=document.getElementById('result');
 
-
+    bindEvent(messageButton,'click',function (e) {
+        console.log('p data',e.data);
+        sendMessge('gg');
+	});
     let sendMessge=function(msg){
+    	console.log('parent msg',msg)
 		iframe1.contentWindow.postMessage(msg,'*');
     }
 
