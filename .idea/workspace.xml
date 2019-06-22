@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/es6/proxy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="234">
+              <first_editor relative-caret-position="700">
                 <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
                 <folding>
                   <element signature="e#82#136#0" />
@@ -39,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -48,10 +47,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="875">
               <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
             </state>
           </provider>
@@ -86,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/basic/linkList/README.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/map/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/set/README.md" />
@@ -137,12 +144,13 @@
         <option value="$PROJECT_DIR$/es6/proxy.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="337" />
-    <option name="y" value="92" />
+    <option name="x" value="768" />
+    <option name="y" value="98" />
     <option name="width" value="1440" />
     <option name="height" value="982" />
   </component>
@@ -168,7 +176,7 @@
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
-              <item name="postMessage" type="462c0819:PsiDirectoryNode" />
+              <item name="settimeout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
@@ -321,14 +329,9 @@
       <workItem from="1560856971439" duration="521000" />
       <workItem from="1560858238118" duration="1064000" />
       <workItem from="1560861668682" duration="70000" />
-      <workItem from="1561111231290" duration="2643000" />
-    </task>
-    <task id="LOCAL-00024" summary="feat:增加对象设计模式">
-      <created>1554982483483</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982483483</updated>
+      <workItem from="1561111231290" duration="2918000" />
+      <workItem from="1561118087250" duration="590000" />
+      <workItem from="1561181879717" duration="644000" />
     </task>
     <task id="LOCAL-00025" summary="feat:增加原型链和继承">
       <created>1554982518381</created>
@@ -666,17 +669,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561116340968</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="feat:change iframeSource info">
+      <created>1561116712396</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1561116712396</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142920000" />
+    <option name="totallyTimeSpent" value="144429000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="369" y="165" width="1440" height="982" extended-state="0" />
+    <frame x="768" y="98" width="1440" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32391304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33405796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -688,7 +698,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4563107" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4563107" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -741,7 +751,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:目录增加树" />
     <MESSAGE value="feat:目录增加图(未完结)" />
     <MESSAGE value="feat:增加图" />
     <MESSAGE value="feat:增加图遍历" />
@@ -766,10 +775,10 @@
     <MESSAGE value="feat:postMessage practice" />
     <MESSAGE value="feat:add iframeSource" />
     <MESSAGE value="feat:change iframeSource" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:change iframeSource" />
+    <MESSAGE value="feat:change iframeSource info" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:change iframeSource info" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitattributes" />
     <entry file="file://$PROJECT_DIR$/date.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1128,7 +1137,7 @@
     <entry file="file://$PROJECT_DIR$/es6/proxy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
+          <first_editor relative-caret-position="700">
             <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
             <folding>
               <element signature="e#82#136#0" />
@@ -1147,7 +1156,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="875">
           <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
         </state>
       </provider>
@@ -1156,6 +1165,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
