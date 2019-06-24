@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/argument/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,17 +41,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="925">
               <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
               <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/argument/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -94,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/map/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/set/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -145,12 +153,13 @@
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/argument/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="768" />
-    <option name="y" value="98" />
+    <option name="x" value="570" />
+    <option name="y" value="117" />
     <option name="width" value="1440" />
     <option name="height" value="982" />
   </component>
@@ -159,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +184,7 @@
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="professional-javascript-for-web-developers" type="462c0819:PsiDirectoryNode" />
-              <item name="settimeout" type="462c0819:PsiDirectoryNode" />
+              <item name="argument" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
@@ -193,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,14 +340,9 @@
       <workItem from="1560861668682" duration="70000" />
       <workItem from="1561111231290" duration="2918000" />
       <workItem from="1561118087250" duration="590000" />
-      <workItem from="1561181879717" duration="644000" />
-    </task>
-    <task id="LOCAL-00025" summary="feat:增加原型链和继承">
-      <created>1554982518381</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982518381</updated>
+      <workItem from="1561181879717" duration="790000" />
+      <workItem from="1561182879831" duration="1000" />
+      <workItem from="1561364324602" duration="354000" />
     </task>
     <task id="LOCAL-00026" summary="feat:增加原型链和继承">
       <created>1554982627412</created>
@@ -676,17 +680,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561116712396</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="feat:settimeout test">
+      <created>1561182679659</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1561182679659</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144429000" />
+    <option name="totallyTimeSpent" value="144930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="768" y="98" width="1440" height="982" extended-state="0" />
+    <frame x="570" y="117" width="1440" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33405796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3442029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -751,7 +762,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:目录增加图(未完结)" />
     <MESSAGE value="feat:增加图" />
     <MESSAGE value="feat:增加图遍历" />
     <MESSAGE value="feat:排序" />
@@ -776,16 +786,10 @@
     <MESSAGE value="feat:add iframeSource" />
     <MESSAGE value="feat:change iframeSource" />
     <MESSAGE value="feat:change iframeSource info" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:change iframeSource info" />
+    <MESSAGE value="feat:settimeout test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:settimeout test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -991,13 +995,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/android/bin/idea.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="182" column="30" selection-start-line="182" selection-start-column="30" selection-end-line="182" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/software/android/bin/idea.properties" />
     <entry file="file://$PROJECT_DIR$/design-pattern/main.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1154,6 +1152,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
@@ -1161,17 +1166,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/argument/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
