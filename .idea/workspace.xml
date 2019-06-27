@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/network/file/2.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/unknown-js/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/unknown-js/files/1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unknown-js/files/2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/network/README.md" afterDir="false" />
@@ -20,12 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="75">
                 <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unknown-js/files/2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="273">
+                <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -73,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/complicated/sort/sort.html" />
         <option value="$PROJECT_DIR$/algorithm/complicated/sort/README.md" />
         <option value="$PROJECT_DIR$/algorithm/complicated/graph/graph.html" />
         <option value="$PROJECT_DIR$/algorithm/complicated/graph/README.md" />
@@ -124,12 +136,13 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/unknown-js/files/1.md" />
         <option value="$PROJECT_DIR$/unknown-js/README.md" />
+        <option value="$PROJECT_DIR$/unknown-js/files/2.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="188" />
-    <option name="y" value="207" />
+    <option name="x" value="252" />
+    <option name="y" value="130" />
     <option name="width" value="1440" />
     <option name="height" value="908" />
   </component>
@@ -308,7 +321,7 @@
       <workItem from="1561513406335" duration="565000" />
       <workItem from="1561514912718" duration="1365000" />
       <workItem from="1561550886635" duration="3048000" />
-      <workItem from="1561636822077" duration="1161000" />
+      <workItem from="1561636822077" duration="2275000" />
     </task>
     <task id="LOCAL-00027" summary="feat:日期格式化">
       <created>1555062703711</created>
@@ -657,11 +670,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156985000" />
+    <option name="totallyTimeSpent" value="158099000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="188" y="207" width="1440" height="908" extended-state="0" />
-    <editor active="true" />
+    <frame x="252" y="130" width="1440" height="908" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37608695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -756,14 +768,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:add dp" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-pattern/ep12/ep12.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1159,6 +1163,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="75">
             <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unknown-js/files/2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="273">
+            <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
