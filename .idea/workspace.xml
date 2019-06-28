@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/network/file/2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unknown-js/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unknown-js/files/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unknown-js/files/2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/network/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unknown-js/files/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/files/2.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="273">
-                <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+                <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/unknown-js/files/1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="273">
+              <first_editor relative-caret-position="600">
                 <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               </first_editor>
               <second_editor />
@@ -141,8 +135,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="130" />
+    <option name="x" value="127" />
+    <option name="y" value="432" />
     <option name="width" value="1440" />
     <option name="height" value="908" />
   </component>
@@ -179,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/work/dss-web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -322,6 +316,7 @@
       <workItem from="1561514912718" duration="1365000" />
       <workItem from="1561550886635" duration="3048000" />
       <workItem from="1561636822077" duration="2275000" />
+      <workItem from="1561686762934" duration="1902000" />
     </task>
     <task id="LOCAL-00027" summary="feat:日期格式化">
       <created>1555062703711</created>
@@ -670,12 +665,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158099000" />
+    <option name="totallyTimeSpent" value="160001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="252" y="130" width="1440" height="908" extended-state="0" />
+    <frame x="127" y="432" width="1440" height="908" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37608695" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38188407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1148,16 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unknown-js/files/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="273">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1168,11 +1154,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unknown-js/files/1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="600">
+            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unknown-js/files/2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="273">
-            <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
