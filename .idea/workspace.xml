@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unknown-js/files/3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unknown-js/files/4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unknown-js/files/closure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unknown-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/files/2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unknown-js/files/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/files/3.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +23,8 @@
         <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
-                <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -30,11 +32,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unknown-js/files/4.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="109">
+                <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unknown-js/files/closure.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unknown-js/files/3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="248">
-                <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+              <first_editor relative-caret-position="148">
+                <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -71,8 +94,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -94,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/complicated/graph/graph.html" />
-        <option value="$PROJECT_DIR$/algorithm/complicated/graph/README.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/README.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html" />
         <option value="$PROJECT_DIR$/algorithm/basic/array/array.md" />
@@ -143,14 +164,16 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/unknown-js/files/1.md" />
         <option value="$PROJECT_DIR$/unknown-js/files/2.md" />
-        <option value="$PROJECT_DIR$/unknown-js/README.md" />
         <option value="$PROJECT_DIR$/unknown-js/files/3.md" />
+        <option value="$PROJECT_DIR$/unknown-js/README.md" />
+        <option value="$PROJECT_DIR$/unknown-js/files/closure.html" />
+        <option value="$PROJECT_DIR$/unknown-js/files/4.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="453" />
+    <option name="x" value="251" />
+    <option name="y" value="645" />
     <option name="width" value="1440" />
     <option name="height" value="908" />
   </component>
@@ -219,11 +242,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.this.html">
-    <configuration name="extend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/js/extend.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.closure.html">
+    <configuration name="closure.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/unknown-js/files/closure.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="find string.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/fcc-test/Basic algorithm test/find string.html" useBuiltInWebServerPort="true">
+    <configuration name="extend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/js/extend.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="large-array.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/fcc-test/Basic algorithm test/large-array.html" useBuiltInWebServerPort="true">
@@ -237,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.closure.html" />
         <item itemvalue="JavaScript Debug.this.html" />
         <item itemvalue="JavaScript Debug.substring.html" />
         <item itemvalue="JavaScript Debug.extend.html" />
         <item itemvalue="JavaScript Debug.large-array.html" />
-        <item itemvalue="JavaScript Debug.find string.html" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +353,7 @@
       <workItem from="1561514912718" duration="1365000" />
       <workItem from="1561550886635" duration="3048000" />
       <workItem from="1561636822077" duration="2275000" />
-      <workItem from="1561686762934" duration="3116000" />
+      <workItem from="1561686762934" duration="8144000" />
     </task>
     <task id="LOCAL-00027" summary="feat:日期格式化">
       <created>1555062703711</created>
@@ -679,10 +702,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161215000" />
+    <option name="totallyTimeSpent" value="166243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="453" width="1440" height="908" extended-state="0" />
+    <frame x="251" y="645" width="1440" height="908" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38188407" />
@@ -778,26 +801,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:add dp" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3925">
-            <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
-            <folding>
-              <element signature="e#63#68#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/ep13/ep13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/basic/slice/slice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1168,21 +1171,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
+    <entry file="file://$PROJECT_DIR$/unknown-js/files/3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <first_editor relative-caret-position="148">
+            <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unknown-js/files/3.md">
+    <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="248">
-            <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unknown-js/files/closure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unknown-js/files/4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="109">
+            <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
