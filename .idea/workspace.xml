@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unknown-js/files/5.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unknown-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unknown-js/files/5.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/files/5.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,9 +33,10 @@
         <entry file="file://$PROJECT_DIR$/unknown-js/files/5.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="325">
-                <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+              <first_editor relative-caret-position="210">
+                <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
                 <folding>
+                  <element signature="n#!!doc" expanded="true" />
                   <element signature="n#!!doc" expanded="true" />
                   <element signature="n#!!doc" expanded="true" />
                   <element signature="n#!!doc" expanded="true" />
@@ -188,8 +189,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="463" />
+    <option name="x" value="273" />
+    <option name="y" value="457" />
     <option name="width" value="1440" />
     <option name="height" value="908" />
   </component>
@@ -370,7 +371,7 @@
       <workItem from="1561550886635" duration="3048000" />
       <workItem from="1561636822077" duration="2275000" />
       <workItem from="1561686762934" duration="8198000" />
-      <workItem from="1561964103176" duration="1573000" />
+      <workItem from="1561964103176" duration="4142000" />
     </task>
     <task id="LOCAL-00027" summary="feat:日期格式化">
       <created>1555062703711</created>
@@ -719,13 +720,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167870000" />
+    <option name="totallyTimeSpent" value="170439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="463" width="1440" height="908" extended-state="0" />
+    <frame x="273" y="457" width="1440" height="908" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38768116" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38768116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -737,7 +738,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38533333" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38533333" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1221,9 +1222,10 @@
     <entry file="file://$PROJECT_DIR$/unknown-js/files/5.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
-            <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+          <first_editor relative-caret-position="210">
+            <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
             <folding>
+              <element signature="n#!!doc" expanded="true" />
               <element signature="n#!!doc" expanded="true" />
               <element signature="n#!!doc" expanded="true" />
               <element signature="n#!!doc" expanded="true" />
