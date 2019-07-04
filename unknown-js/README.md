@@ -1,9 +1,10 @@
 # 你不知道的js
 ## 目录
-1. 词法作用域
-2. 函数作用域与块作用域
-3. 提升
-4. 闭包
-5. this
-6. 继续聊this
-7. 对象
+1. [词法作用域](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/1.md)
+2. [函数作用域与块作用域](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/2.md)
+3. [提升](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/3.md)
+4. [闭包](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/4.md)
+5. [this](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/5.md)
+6. [继续聊this](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/6.md)
+7. [对象](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/7.md)
+8. [混合对象类](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/8.md)
