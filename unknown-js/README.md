@@ -7,4 +7,4 @@
 5. [this](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/5.md)
 6. [继续聊this](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/6.md)
 7. [对象](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/7.md)
-8. [混合对象类](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/8.md)
+8. [原型](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/8.md)
