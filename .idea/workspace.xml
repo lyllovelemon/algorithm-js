@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/8.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/files/8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/file/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/network/file/1.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/basic/queue/queue.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/this.html" />
         <option value="$PROJECT_DIR$/.gitattributes" />
         <option value="$PROJECT_DIR$/algorithm/sort.js" />
@@ -134,12 +130,13 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/unknown-js/README.md" />
         <option value="$PROJECT_DIR$/unknown-js/files/8.md" />
+        <option value="$PROJECT_DIR$/test.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="227" />
-    <option name="y" value="329" />
+    <option name="x" value="230" />
+    <option name="y" value="90" />
     <option name="width" value="1440" />
     <option name="height" value="908" />
   </component>
@@ -154,17 +151,6 @@
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="unknown-js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="unknown-js" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,6 +309,7 @@
       <workItem from="1561964103176" duration="7990000" />
       <workItem from="1562035048424" duration="5174000" />
       <workItem from="1562210414453" duration="13167000" />
+      <workItem from="1562830490996" duration="163000" />
     </task>
     <task id="LOCAL-00028" summary="feat:add js类型转换">
       <created>1555062745246</created>
@@ -671,12 +658,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192628000" />
+    <option name="totallyTimeSpent" value="192791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="227" y="329" width="1440" height="908" extended-state="0" />
+    <frame x="-28" y="380" width="1440" height="908" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39927536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40507245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -769,9 +757,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:add readme" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/basic/js/this.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/basic/this.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1167,6 +1152,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1177,13 +1172,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
