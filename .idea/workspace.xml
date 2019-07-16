@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="feat:add typeof">
-      <change afterPath="$PROJECT_DIR$/mini-program/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unknown-js/middle/2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unknown-js/middle/3.md" afterDir="false" />
+    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="feat:add prototype">
+      <change afterPath="$PROJECT_DIR$/unknown-js/middle/4.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/9.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/files/9.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,18 +29,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mini-program/1.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unknown-js/middle/2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -55,12 +40,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unknown-js/middle/3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="221">
                 <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unknown-js/middle/4.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="310">
+                <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/sort.js" />
         <option value="$PROJECT_DIR$/algorithm/sort.html" />
         <option value="$PROJECT_DIR$/algorithm/basic/slice/slice.html" />
         <option value="$PROJECT_DIR$/algorithm/complicated/greedy/greedy.md" />
@@ -171,12 +167,13 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/mini-program/1.md" />
         <option value="$PROJECT_DIR$/unknown-js/middle/3.md" />
+        <option value="$PROJECT_DIR$/unknown-js/middle/4.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="y" value="118" />
+    <option name="x" value="242" />
+    <option name="y" value="129" />
     <option name="width" value="1440" />
     <option name="height" value="908" />
   </component>
@@ -364,21 +361,7 @@
       <workItem from="1562902059228" duration="787000" />
       <workItem from="1563155533991" duration="136000" />
       <workItem from="1563261037275" duration="738000" />
-      <workItem from="1563267227606" duration="2766000" />
-    </task>
-    <task id="LOCAL-00031" summary="feat:增加函数">
-      <created>1555126961704</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1555126961704</updated>
-    </task>
-    <task id="LOCAL-00032" summary="feat:增加递归">
-      <created>1555126979555</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1555126979555</updated>
+      <workItem from="1563267227606" duration="4177000" />
     </task>
     <task id="LOCAL-00033" summary="feat:目录增加">
       <created>1555127063198</created>
@@ -709,18 +692,34 @@
       <option name="project" value="LOCAL" />
       <updated>1562902126603</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="feat:add value">
+      <created>1563270141442</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1563270141443</updated>
+    </task>
+    <task id="LOCAL-00081" summary="feat:add prototype">
+      <created>1563270174592</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1563270174592</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197218000" />
+    <option name="totallyTimeSpent" value="198629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="177" y="118" width="1440" height="908" extended-state="0" />
+    <frame x="76" y="436" width="1440" height="908" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4304348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -783,8 +782,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:增加indexDB" />
-    <MESSAGE value="feat:增加队列" />
     <MESSAGE value="feat:目录增加队列" />
     <MESSAGE value="feat:增加this指向" />
     <MESSAGE value="feat:改变默认语言" />
@@ -808,12 +805,11 @@
     <MESSAGE value="feat:add network" />
     <MESSAGE value="feat:add es6 class" />
     <MESSAGE value="feat:add typeof" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:add typeof" />
+    <MESSAGE value="feat:add value" />
+    <MESSAGE value="feat:add prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add prototype" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/basic/dom/dom.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/basic/js/closure.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1249,6 +1245,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="221">
             <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unknown-js/middle/4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="310">
+            <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
           </first_editor>
           <second_editor />
         </state>
