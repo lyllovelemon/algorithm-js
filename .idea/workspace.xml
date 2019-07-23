@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="feat:add prototype">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/4.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/middle/4.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
+              <first_editor relative-caret-position="225">
                 <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               </first_editor>
               <second_editor />
@@ -172,8 +171,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="195" />
-    <option name="y" value="345" />
+    <option name="x" value="290" />
+    <option name="y" value="117" />
     <option name="width" value="1440" />
     <option name="height" value="908" />
   </component>
@@ -210,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/work/wxat-subpackages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -363,7 +362,8 @@
       <workItem from="1563261037275" duration="738000" />
       <workItem from="1563267227606" duration="4177000" />
       <workItem from="1563328019816" duration="40000" />
-      <workItem from="1563789006691" duration="1155000" />
+      <workItem from="1563789006691" duration="1782000" />
+      <workItem from="1563847241055" duration="27000" />
     </task>
     <task id="LOCAL-00033" summary="feat:目录增加">
       <created>1555127063198</created>
@@ -712,13 +712,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199824000" />
+    <option name="totallyTimeSpent" value="200478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="195" y="345" width="1440" height="908" extended-state="0" />
-    <editor active="true" />
+    <frame x="113" y="290" width="1440" height="908" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44347826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1223,21 +1222,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
-            <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
+            <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <first_editor relative-caret-position="225">
+            <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
           </first_editor>
           <second_editor />
         </state>
