@@ -12,11 +12,11 @@
 
 ## 中篇
 1. [类型](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/1.md)
-2. 值
-3. 原生函数
-4. 强制类型转换
-5. 语法
-6. 异步
-7. 回调
+2. [值](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/2.md)
+3. [原生函数](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/3.md)
+4. [强制类型转换](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/4.md)
+5. [语法]()
+6. [异步](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/6.md)
+7. [回调](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/7.md)
 8. promise
 9. 生成器
