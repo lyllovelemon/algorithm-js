@@ -12,7 +12,14 @@
   <div id="app">
   </div>
   <!--<script src="index.js"></script>-->
-  <script src="sort.js"></script>
+  <!--<script src="sort.js"></script>-->
+  <script>
+    var a={n:1};
+    var b=a;
+    a.x=a={n:2};
+    console.log(a.x);
+    console.log(b.x);
+  </script>
 </body>
 
 </html>

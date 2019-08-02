@@ -15,9 +15,12 @@ function LinkedList() {
     //向列表尾部添加一个新项
     this.append=function (element) {
     let node=new Node(element),current;
-    if(head===null){head=node;}
+    //链表为空，则添加到第一个节点
+    if(head===null){
+    	head=node;
+    }
     else{
-        current=node;
+        current=head;
         //循环列表直至找到最后一项
         while (current.next){
             current=current.next;
@@ -50,12 +53,15 @@ function LinkedList() {
       }
     };
     this.removeAt=function (position) {
+    	//验证位置有效性
         if(position>-1 && position<length){
             let current=head,previous,index=0;
+            //如果移除的是第一项
             if(position===0){
                 head=current.next;
             }
             else{
+            	//current为当前列表循环项的引用,previous为当前列表循环前一项的引用
                 while (index++<position){
                     previous=current;
                     current=current.next;

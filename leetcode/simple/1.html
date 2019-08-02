@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两数之和</title>
+</head>
+<body>
+<script>
+    let twoSum=function (nums,target) {
+        for(let i=0;i<nums.length;i++){
+        	for(let j=i+1;j<nums.length-i;j++){
+        		if(nums[i]+nums[j]===target){
+					return [i,j];
+                }
+            }
+        }
+	};
+	twoSum([3,3],6);
+</script>
+</body>
+</html>
