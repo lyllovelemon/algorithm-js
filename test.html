@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+	let arr = [
+		{
+			activityName: "会员数据123",
+			activityOrderConsume: 1,
+			activityPhoto: "https://image.res.meizu.com/image/dss-wshop/95fd1010b7e94fb2a2cbda94747e4c1fz",
+			activityStatus: 1,
+			activityStoresIds: ",2603,10178,10110,10122,10124,10130,10140,10141,10146,10147,10151,10152,10153,10156,10159,10160,10162,10163,10164,10165,10166,10167,10168,10169,10173,10179,10180,10183,",
+			activityStoresSelectType: 1,
+			appId: 376,
+			beginTime: "2019-08-03 00:00:00",
+			couponId: 263,
+			createTime: 1564733903000,
+			domainId: null,
+			endTime: "2019-08-04 00:00:00",
+			epId: null,
+			epName: null,
+			equityType: 1,
+			id: 100,
+			luckyTurningId: null,
+			memberLevelIds: ",75,139,",
+			memberLevelSelectType: 2,
+			paymentChannelIds: ",1,",
+			sellerId: 158,
+			updateTime: 1564733903000
+		},{
+			activityName: "会员数据123",
+			activityOrderConsume: 1,
+			activityPhoto: "https://image.res.meizu.com/image/dss-wshop/95fd1010b7e94fb2a2cbda94747e4c1fz",
+			activityStatus: 1,
+			activityStoresIds: ",2603,10178,10110,10122,10124,10130,10140,10141,10146,10147,10151,10152,10153,10156,10159,10160,10162,10163,10164,10165,10166,10167,10168,10169,10173,10179,10180,10183,",
+			activityStoresSelectType: 1,
+			appId: 376,
+			beginTime: "2019-08-03 00:00:00",
+			couponId: 263,
+			createTime: 1564733903000,
+			domainId: null,
+			endTime: "2019-08-04 00:00:00",
+			epId: null,
+			epName: null,
+			equityType: 1,
+			id: 100,
+			luckyTurningId: null,
+			memberLevelIds: ",75,139,",
+			memberLevelSelectType: 2,
+			paymentChannelIds: ",1,",
+			sellerId: 158,
+			updateTime: 1564733903000
+		},{
+			activityName: "会员数据123",
+			activityOrderConsume: 1,
+			activityPhoto: "https://image.res.meizu.com/image/dss-wshop/95fd1010b7e94fb2a2cbda94747e4c1fz",
+			activityStatus: 1,
+			activityStoresIds: ",2603,10178,10110,10122,10124,10130,10140,10141,10146,10147,10151,10152,10153,10156,10159,10160,10162,10163,10164,10165,10166,10167,10168,10169,10173,10179,10180,10183,",
+			activityStoresSelectType: 1,
+			appId: 376,
+			beginTime: "2019-08-03 00:00:00",
+			couponId: 423,
+			createTime: 1564733903000,
+			domainId: null,
+			endTime: "2019-08-04 00:00:00",
+			epId: null,
+			epName: null,
+			equityType: 1,
+			id: 100,
+			luckyTurningId: null,
+			memberLevelIds: ",75,139,",
+			memberLevelSelectType: 2,
+			paymentChannelIds: ",1,",
+			sellerId: 158,
+			updateTime: 1564733903000
+		},{
+			activityName: "会员数据123",
+			activityOrderConsume: 1,
+			activityPhoto: "https://image.res.meizu.com/image/dss-wshop/95fd1010b7e94fb2a2cbda94747e4c1fz",
+			activityStatus: 1,
+			activityStoresIds: ",2603,10178,10110,10122,10124,10130,10140,10141,10146,10147,10151,10152,10153,10156,10159,10160,10162,10163,10164,10165,10166,10167,10168,10169,10173,10179,10180,10183,",
+			activityStoresSelectType: 1,
+			appId: 376,
+			beginTime: "2019-08-03 00:00:00",
+			couponId: null,
+			createTime: 1564733903000,
+			domainId: null,
+			endTime: "2019-08-04 00:00:00",
+			epId: null,
+			epName: null,
+			equityType: 1,
+			id: 100,
+			luckyTurningId:55,
+			memberLevelIds: ",75,139,",
+			memberLevelSelectType: 2,
+			paymentChannelIds: ",1,",
+			sellerId: 158,
+			updateTime: 1564733903000
+		},
+	];
+    let ticket=arr.filter(item=>{
+    	return !!(item.couponId);
+    })
+    console.log(ticket);
+    let lucky=arr.filter(item=>{
+    	return !!(item.luckyTurningId);
+    })
+    console.log(lucky);
+</script>
+</body>
+</html>
