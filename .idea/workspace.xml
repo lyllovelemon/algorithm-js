@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fcc-test/set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fcc-test/set.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/8.md" beforeDir="false" afterPath="$PROJECT_DIR$/unknown-js/middle/8.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,22 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="525">
-                <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unknown-js/middle/8.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="277">
+              <first_editor relative-caret-position="366">
                 <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
               </first_editor>
               <second_editor />
@@ -40,24 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unknown-js/middle/6.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="500">
-                <caret line="20" selection-start-line="20" selection-end-line="20" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fcc-test/set.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unknown-js/middle/7.md">
+        <entry file="file://$PROJECT_DIR$/fcc-test/set.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4000">
-                <caret line="160" column="3" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
+              <first_editor>
+                <caret column="10" selection-start-column="10" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -93,9 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/task/task.md" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" />
-        <option value="$PROJECT_DIR$/design-pattern/ep13/ep13.html" />
         <option value="$PROJECT_DIR$/design-pattern/ep13/ep13.md" />
         <option value="$PROJECT_DIR$/algorithm/basic/proxy.html" />
         <option value="$PROJECT_DIR$/design-pattern/ep15.md" />
@@ -144,12 +127,15 @@
         <option value="$PROJECT_DIR$/unknown-js/middle/7.md" />
         <option value="$PROJECT_DIR$/unknown-js/README.md" />
         <option value="$PROJECT_DIR$/unknown-js/middle/8.md" />
+        <option value="$PROJECT_DIR$/vue/README.md" />
+        <option value="$PROJECT_DIR$/fcc-test/set.html" />
+        <option value="$PROJECT_DIR$/fcc-test/set.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-345" />
-    <option name="y" value="250" />
+    <option name="x" value="339" />
+    <option name="y" value="243" />
     <option name="width" value="1894" />
     <option name="height" value="914" />
   </component>
@@ -158,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,23 +154,13 @@
             <path>
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="unknown-js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="unknown-js" type="462c0819:PsiDirectoryNode" />
-              <item name="middle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="fcc-test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,17 +173,17 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\algorithm-js\network\file" />
-      <recent name="E:\git\algorithm-js\algorithm" />
-      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\vue" />
       <recent name="E:\git\algorithm-js\design-pattern" />
       <recent name="E:\git\algorithm-js\image" />
       <recent name="E:\git\algorithm-js\algorithm\basic\queue" />
       <recent name="E:\git\algorithm-js\algorithm\basic\array" />
-      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\indexedDB" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\network\file" />
+      <recent name="E:\git\algorithm-js\algorithm" />
+      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,6 +339,9 @@
       <workItem from="1564797818188" duration="9372000" />
       <workItem from="1564824193914" duration="4574000" />
       <workItem from="1564969723428" duration="306000" />
+      <workItem from="1564975859659" duration="277000" />
+      <workItem from="1564982578892" duration="33000" />
+      <workItem from="1564996334936" duration="2428000" />
     </task>
     <task id="LOCAL-00038" summary="feat:增加树">
       <created>1555316281509</created>
@@ -712,12 +690,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234960000" />
+    <option name="totallyTimeSpent" value="237698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-345" y="250" width="1894" height="914" extended-state="0" />
+    <frame x="339" y="243" width="1894" height="914" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42966193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44438386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -729,7 +708,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3321343" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38227513" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38227513" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -811,53 +790,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:增加语法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2200">
-            <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-            <folding>
-              <element signature="e#412#520#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3850">
-            <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/assign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="44" selection-start-line="44" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="e#116#133#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/assign.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1225,26 +1157,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="108" column="37" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unknown-js/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="525">
             <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
           </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/new.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -1269,13 +1215,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unknown-js/middle/8.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="277">
+          <first_editor relative-caret-position="366">
             <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcc-test/set.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="10" selection-start-column="10" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcc-test/set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
         </state>
       </provider>
     </entry>

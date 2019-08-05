@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实现一个set</title>
+</head>
+<body>
+<script>
+    (function (global) {
+		function Set(data) {
+			this._value=[];
+			this.size=0;
+			data && data.forEach(item=>{
+				this.add(item);
+			},this);
+		}
+		Set.prototype['add']=function (value) {
+			if(this._value.indexOf(value)==-1){
+				this._value.push(value);
+				++this.size;
+			}
+			return this;
+		};
+		Set.prototype["has"]=function (value) {
+			return (this._value.indexOf(value)>-1);
+		};
+		Set.prototype["delete"]=function(value){
+			if(this._value.indexOf(value)>1){
+				this._value.slice(this._value.indexOf(value),1);
+				this.size--;
+				return true;
+			}
+			else {
+				return false;
+			}
+		};
+		Set.prototype["clear"]=function () {
+			this._value=[];
+			this.size=0;
+		};
+		Set.prototype["forEach"]=function () {
+			for(let i=0;i<this._value.length;i++){
+				return this._value[i];
+			}
+		}
+	})(this)
+
+	let set=new Set([1,2,3,4,5,5]);
+    console.log(set.size);
+    set.delete(1);
+    console.log(set.has(1));
+
+    set.clear();
+    console.log(set.size);
+
+    set=new Set([1,2,3,4,4]);
+    set.forEach((value,key,set)=>{
+    	console.log(value,key,set.size);
+    })
+</script>
+</body>
+</html>
