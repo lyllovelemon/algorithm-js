@@ -280,4 +280,32 @@ window.onload=function() {
 }
 ```
 ## 实现一个节流函数
+```javascript
+function throttle(fn,gapTime) {
+  let _lastTime=null;
+  return function() {
+    let _nowTime=+ new Date();
+    if(_nowTime-_lastTime>gapTime||!_lastTime){
+    	fn();
+    	_lastTime=_nowTime;
+    }
+  }
+}
+```
 ## 实现一个防抖函数
+```javascript
+function debounce(fn,wait) {
+  var timer=null;
+  return function() {
+    let context=this;
+    let args=arguments;
+    if(timer){
+    	clearTimeout(timer);
+    	timer=null;
+    }
+    timer=setTimeout(function() {
+      fn.apply(context,args)
+    },wait)
+  }
+}
+```
