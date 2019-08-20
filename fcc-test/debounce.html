@@ -10,7 +10,7 @@
         let timer=0;
     	return func(...args){
     		if(timer) clearTimeout(timer);
-    		setTimeout(()=>{
+    		timer=setTimeout(()=>{
     			func.apply(this,args);
             },wait)
         }
