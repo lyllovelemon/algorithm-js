@@ -42,7 +42,7 @@ console.log('d');
 
 > setTimeout是作为宏任务来存在的，而promise.then则是具有代表性的微任务。
 
-在promise/A+的规范中，promise的实现可以是微任务，也可以是宏任务。但是普遍的
+在promise/A+的规范中，[promise]()的实现可以是微任务，也可以是宏任务。但是普遍的
 共识，promise属于微任务。
 
 ## 宏任务
@@ -53,7 +53,11 @@ console.log('d');
 + requestAnimationFrame
 有些地方会列出来UI rendering作为宏任务，但是HTML规范文档把它列为跟微任务平行的一个操作步骤。
 
-
+## 微任务
++ process.nextTick
++ MutationObserver
++ promise.then catch finally
++ await
 
 ## 答案
 1.
