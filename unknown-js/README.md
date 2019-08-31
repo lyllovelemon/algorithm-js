@@ -8,7 +8,7 @@
 6. [继续聊this](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/6.md)
 7. [对象](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/7.md)
 8. [原型](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/8.md)
-9.[ES6的class](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/9.md)
+9. [ES6的class](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/files/9.md)
 
 ## 中篇
 1. [类型](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/1.md)
@@ -19,4 +19,7 @@
 6. [异步](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/6.md)
 7. [回调](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/7.md)
 8. [promise](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/8.md)
-9. [生成器]()
+9. [生成器](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/middle/9.md)
+
+## 下篇
+1. [ES6+](https://github.com/lyllovelemon/algorithm-js/blob/master/unknown-js/last/1.md)
