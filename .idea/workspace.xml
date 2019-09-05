@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/3.md" afterDir="false" />
+    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="feat:add vue data rendering">
       <change afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -135,19 +133,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="175">
-                <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+                <caret line="7" column="113" selection-start-line="7" selection-start-column="113" selection-end-line="7" selection-end-column="113" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -178,6 +176,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--follow-tags" />
@@ -237,8 +236,8 @@
         <option value="$PROJECT_DIR$/blog/README.md" />
         <option value="$PROJECT_DIR$/blog/2.md" />
         <option value="$PROJECT_DIR$/blog/3.md" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
         <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/1.md" />
+        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
       </list>
     </option>
   </component>
@@ -464,21 +463,7 @@
       <workItem from="1567507600990" duration="605000" />
       <workItem from="1567561514479" duration="599000" />
       <workItem from="1567583339170" duration="4278000" />
-      <workItem from="1567646562414" duration="5959000" />
-    </task>
-    <task id="LOCAL-00039" summary="feat:增加红黑树概述">
-      <created>1555318397887</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1555318397887</updated>
-    </task>
-    <task id="LOCAL-00040" summary="feat:目录增加树">
-      <created>1555318478473</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1555318478473</updated>
+      <workItem from="1567646562414" duration="6053000" />
     </task>
     <task id="LOCAL-00041" summary="feat:增加图">
       <created>1555319033693</created>
@@ -809,11 +794,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567242758360</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="feat:add vue lifecycle">
+      <created>1567672161990</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1567672161990</updated>
+    </task>
+    <task id="LOCAL-00089" summary="feat:add vue data rendering">
+      <created>1567672185483</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1567672185483</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288221000" />
+    <option name="totallyTimeSpent" value="288315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="366" y="86" width="1700" height="938" extended-state="0" />
@@ -885,8 +884,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat:add dp miss directory" />
-    <MESSAGE value="feat:add task" />
     <MESSAGE value="feat:uesless" />
     <MESSAGE value="feat:增加事件循环" />
     <MESSAGE value="feat:pic test" />
@@ -910,7 +907,9 @@
     <MESSAGE value="feat:链表优化" />
     <MESSAGE value="feat:增加语法" />
     <MESSAGE value="feat:add generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:add generator" />
+    <MESSAGE value="feat:add vue lifecycle" />
+    <MESSAGE value="feat:add vue data rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add vue data rendering" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/algorithm/complicated/greedy/greedy.md">
@@ -1361,21 +1360,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="500">
             <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professional-javascript-for-web-developers/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="7" column="113" selection-start-line="7" selection-start-column="113" selection-end-line="7" selection-end-column="113" />
           </first_editor>
           <second_editor />
         </state>
