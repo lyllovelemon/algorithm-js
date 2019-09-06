@@ -6,28 +6,26 @@
 </head>
 <body>
 <script>
+	function jumpFloor(number)
+	{
+		// write code here
+		if(number===0){ console.log(0)}
+		if(number===1){console.log(1)}
+		if(number===2){console.log(2)}
+		if(number>2){
+			let record=[];
+			record[1]=1;
+            record[2]=2;
+            for(let i=3;i<=number;i++){
+            	record[i]=record[i-1]+record[i-2]
+            }
+            return record[number]
+        }
 
-function reConstructBinaryTree(pre,vin) {//传入两个参数，分别代表前序遍历和中序遍历的序列
-    //前序遍历序列长度为0->没有节点
-	if(pre.length===0){
-    	return null
-    }
-	//前序遍历长度为1->只有一个节点，即根节点
-	if(pre.length===1){
-		return new TreeNode(pre[0]);
-    }
-	const value=pre[0];//保存根节点的值
-    const index=vin.indexOf(value);//寻找根节点在中序遍历的序号
-    const vinLeft=vin.slice(0,index);//中序遍历的左子树
-    const vinRight=vin.slice(index+1);//中序遍历的右子树
-    const preLeft=pre.slice(1,index+1);//前序遍历的左子树
-    const preRight=pre.slice(index+1);//前序遍历的右子树
 
-    const node=new TreeNode(value);
-    node.left=reConstructBinaryTree(preLeft,vinLeft);
-    node.right=reConstructBinaryTree(preRight,vinRight);
-    return node;
-}
+	}
+
+	jumpFloor(7)
 </script>
 </body>
 </html>
