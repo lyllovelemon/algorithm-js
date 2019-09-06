@@ -2,25 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>二维数组的查找</title>
+    <title>剑指offer题解</title>
 </head>
 <body>
 <script>
-	function Find(target, array)
-	{
-		for(let i=0,l=array.length;i<l;i++){
-			if(array[i].includes(target)){
-				console.log('true')
-				return true
-            }
-			console.log('false')
-			return false
-        }
-		// write code here
 
+function reConstructBinaryTree(pre,vin) {//传入两个参数，分别代表前序遍历和中序遍历的序列
+    //前序遍历序列长度为0->没有节点
+	if(pre.length===0){
+    	return null
+    }
+	//前序遍历长度为1->只有一个节点，即根节点
+	if(pre.length===1){
+		return new TreeNode(pre[0]);
+    }
+	const value=pre[0];//保存根节点的值
+    const index=vin.indexOf(value);//寻找根节点在中序遍历的序号
+    const vinLeft=vin.slice(0,index);//中序遍历的左子树
+    const vinRight=vin.slice(index+1);//中序遍历的右子树
+    const preLeft=pre.slice(1,index+1);//前序遍历的左子树
+    const preRight=pre.slice(index+1);//前序遍历的右子树
 
-	}
-	Find(9,[[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]])
+    const node=new TreeNode(value);
+    node.left=reConstructBinaryTree(preLeft,vinLeft);
+    node.right=reConstructBinaryTree(preRight,vinRight);
+    return node;
+}
 </script>
 </body>
 </html>
