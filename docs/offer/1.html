@@ -6,26 +6,16 @@
 </head>
 <body>
 <script>
-	function jumpFloor(number)
-	{
-		// write code here
-		if(number===0){ console.log(0)}
-		if(number===1){console.log(1)}
-		if(number===2){console.log(2)}
-		if(number>2){
-			let record=[];
-			record[1]=1;
-            record[2]=2;
-            for(let i=3;i<=number;i++){
-            	record[i]=record[i-1]+record[i-2]
-            }
-            return record[number]
-        }
+    function jumpFloorII(number)
+    {
+        // write code here
+
+       console.log(1<<3)
 
 
-	}
+    }
 
-	jumpFloor(7)
+    jumpFloorII()
 </script>
 </body>
 </html>

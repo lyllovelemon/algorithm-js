@@ -2,181 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/caret/caret.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/caret/caret.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/caret/substring.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/caret/substring.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/dom/dom.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/dom/dom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/js/closure.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/js/closure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/js/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/js/date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/js/extend.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/js/extend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/js/this.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/js/this.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/linkList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/linkList/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/linkList/doublyLinkedList/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/doublyLinkedList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/linkList/doublyLinkedList/doublyLinkedList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/linkList/doublyLinkedList/doublyLinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/linkList/doublyLinkedList/doublyLinkedList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/linkList/linkList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/linkList/linkList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/linkList/linkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/linkList/linkList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/proxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/proxy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/queue/queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/queue/queue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/slice/slice.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/slice/slice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/stack/stack.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/stack/stack.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/basic/this.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/basic/this.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/dp/dp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/dp/dp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/dp/dp.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/dp/dp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/dp/dp.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/dp/dp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/graph/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/graph/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/graph/graph.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/graph/graph.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/greedy/greedy.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/greedy/greedy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/map/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/map/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/map/hashMap.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/map/hashMap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/map/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/rbt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/rbt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/set/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/set/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/set/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/set/set.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/sort/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/sort/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/sort/sort.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/sort/sort.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/tree/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/complicated/tree/tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/complicated/tree/tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/sort.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/sort.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/sort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/sort/insertSort.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/sort/insertSort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/sort/insertionSort.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/sort/insertionSort.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/date.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/currying.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/currying.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep1/ep1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep1/ep1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep10/ep10.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep10/ep10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep11/ep11.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep11/ep11.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep12/ep12.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep12/ep12.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep13/ep13.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep13/ep13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep13/ep13.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep13/ep13.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep14/ep14.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep14/ep14.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep15.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep15.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep2/ep2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep2/ep2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep3/ep3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep3/ep3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep4/ep4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep4/ep4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep5/ep5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep5/ep5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep6/ep6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep6/ep6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep6/ep6.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep6/ep6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep7/ep7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep7/ep7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep7/ep7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep7/ep7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep8/ep8.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep8/ep8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/ep9/ep9.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/ep9/ep9.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/function.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/function.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/main.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design-pattern/main.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/generator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/generator.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/generator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/proxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/proxy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6/proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/proxy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/Basic algorithm test/capital.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/Basic algorithm test/capital.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/Basic algorithm test/end.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/Basic algorithm test/end.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/Basic algorithm test/find string.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/Basic algorithm test/find string.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/Basic algorithm test/large-array.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/Basic algorithm test/large-array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/Basic algorithm test/repeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/Basic algorithm test/repeat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/debounce.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/debounce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/palindrome/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/palindrome/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc-test/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fcc-test/set.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/loop.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/image/loop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/simple/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/leetcode/simple/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/file/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/file/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/file/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/file/2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/images/tcp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/images/tcp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offer/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/offer/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offer/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/offer/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/AOP/AOP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/AOP/AOP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/AOP/AOP.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/AOP/AOP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/argument/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/argument/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/assign.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/assign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/assign.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/assign.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/change/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/change/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/change/change.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/change/change.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/curry.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/curry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/function/basic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/function/basic/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/function/closure/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/function/closure/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/function/factorial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/function/factorial/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/high/curry/curry.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/high/curry/curry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/high/curry/curry.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/high/curry/curry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/indexedDB/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/indexedDB/indexDB.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/indexedDB/indexDB.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/inherit/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/inherit/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/json/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/json/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/loop/loop.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/model/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/object/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/object/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/object/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/object/object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/postMessage/a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/postMessage/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/settimeout/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/task/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/task/task.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/this/this.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/this/this.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional-javascript-for-web-developers/this/this.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/professional-javascript-for-web-developers/this/this.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/6.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/8.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/files/9.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/files/9.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/last/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/last/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/6.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/8.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown-js/middle/9.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unknown-js/middle/9.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/new.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/new.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/script/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/script/array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/script/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/script/object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/offer/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/offer/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/offer/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/offer/1.md" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-321">
-                <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,101 +38,16 @@
       </GitPushTagMode>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/a.html" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/postMessage/main.html" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/settimeout/index.html" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/argument/index.html" />
-        <option value="$PROJECT_DIR$/algorithm/complicated/dp/dp.html" />
-        <option value="$PROJECT_DIR$/algorithm/complicated/dp/dp.md" />
-        <option value="$PROJECT_DIR$/algorithm/complicated/dp/dp.js" />
-        <option value="$PROJECT_DIR$/network/file/1.md" />
-        <option value="$PROJECT_DIR$/network/README.md" />
-        <option value="$PROJECT_DIR$/network/file/2.md" />
-        <option value="$PROJECT_DIR$/unknown-js/files/1.md" />
-        <option value="$PROJECT_DIR$/unknown-js/files/2.md" />
-        <option value="$PROJECT_DIR$/unknown-js/files/3.md" />
-        <option value="$PROJECT_DIR$/unknown-js/files/closure.html" />
-        <option value="$PROJECT_DIR$/unknown-js/files/4.md" />
-        <option value="$PROJECT_DIR$/unknown-js/files/5.md" />
-        <option value="$PROJECT_DIR$/unknown-js/files/6.md" />
-        <option value="$PROJECT_DIR$/unknown-js/files/7.md" />
-        <option value="$PROJECT_DIR$/unknown-js/files/8.md" />
-        <option value="$PROJECT_DIR$/mini-program/1.md" />
-        <option value="$PROJECT_DIR$/unknown-js/middle/3.md" />
-        <option value="$PROJECT_DIR$/unknown-js/middle/4.md" />
-        <option value="$PROJECT_DIR$/unknown-js/middle/6.md" />
-        <option value="$PROJECT_DIR$/leetcode/simple/1.html" />
-        <option value="$PROJECT_DIR$/algorithm/basic/linkList/README.md" />
-        <option value="$PROJECT_DIR$/unknown-js/middle/5.md" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/unknown-js/middle/7.md" />
-        <option value="$PROJECT_DIR$/vue/README.md" />
-        <option value="$PROJECT_DIR$/fcc-test/set.html" />
-        <option value="$PROJECT_DIR$/fcc-test/call.html" />
-        <option value="$PROJECT_DIR$/fcc-test/set.md" />
-        <option value="$PROJECT_DIR$/fcc-test/debounce.html" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/loop/loop.md" />
-        <option value="$PROJECT_DIR$/unknown-js/middle/9.md" />
-        <option value="$PROJECT_DIR$/unknown-js/middle/8.md" />
-        <option value="$PROJECT_DIR$/unknown-js/README.md" />
-        <option value="$PROJECT_DIR$/blog/1.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/unknown-js/last/1.md" />
-        <option value="$PROJECT_DIR$/blog/README.md" />
-        <option value="$PROJECT_DIR$/blog/2.md" />
-        <option value="$PROJECT_DIR$/blog/3.md" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/1.md" />
-        <option value="$PROJECT_DIR$/professional-javascript-for-web-developers/README.md" />
-        <option value="$PROJECT_DIR$/design-pattern/ep3/ep3.md" />
-        <option value="$PROJECT_DIR$/offer/1.html" />
-        <option value="$PROJECT_DIR$/offer/1.md" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/docs/README.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="332" />
-    <option name="width" value="1700" />
-    <option name="height" value="973" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1QVA5GJLDhQitStpGmOG22vVd5b" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/work/dmp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -327,14 +76,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.closure.html">
+  <component name="RunManager" selected="JavaScript Debug.1.html">
+    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/docs/offer/1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="closure.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/unknown-js/files/closure.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="extend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/js/extend.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="large-array.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/fcc-test/Basic algorithm test/large-array.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="substring.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/caret/substring.html" useBuiltInWebServerPort="true">
@@ -345,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.1.html" />
         <item itemvalue="JavaScript Debug.closure.html" />
         <item itemvalue="JavaScript Debug.this.html" />
         <item itemvalue="JavaScript Debug.substring.html" />
         <item itemvalue="JavaScript Debug.extend.html" />
-        <item itemvalue="JavaScript Debug.large-array.html" />
       </list>
     </recent_temporary>
   </component>
@@ -487,6 +236,7 @@
       <workItem from="1567646562414" duration="8780000" />
       <workItem from="1567736172061" duration="6981000" />
       <workItem from="1567752305910" duration="8971000" />
+      <workItem from="1567845208499" duration="3337000" />
     </task>
     <task id="LOCAL-00045" summary="feat:增加图遍历">
       <created>1555661640835</created>
@@ -834,34 +584,6 @@
     <option name="localTasksCounter" value="94" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306994000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="442" y="88" width="1700" height="973" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2152439" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.5828221" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.39386502" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32970452" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="leetcode" order="3" side_tool="true" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -871,20 +593,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -933,436 +642,6 @@
     <MESSAGE value="feat:剑指offer-动态规划1" />
     <MESSAGE value="feat:重新部署readme" />
     <option name="LAST_COMMIT_MESSAGE" value="feat:重新部署readme" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mini-program/1.md" />
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/files/8.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="700">
-            <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/middle/2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/middle/3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1600">
-            <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/middle/4.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="366">
-            <caret line="458" column="6" selection-start-line="458" selection-start-column="6" selection-end-line="458" selection-end-column="6" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/network/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/network/file/2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="25">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/middle/5.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1325">
-            <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/vue/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/vue/new.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/middle/6.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="20" selection-start-line="20" selection-end-line="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/middle/7.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4000">
-            <caret line="160" column="3" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fcc-test/call.html" />
-    <entry file="file://$PROJECT_DIR$/docs/fcc-test/set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/fcc-test/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="7225">
-            <caret line="289" column="27" selection-start-line="289" selection-start-column="27" selection-end-line="289" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/fcc-test/debounce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/professional-javascript-for-web-developers/loop/loop.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/middle/9.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="482">
-            <caret line="156" column="1" lean-forward="true" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/middle/8.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="64">
-            <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/last/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="7250">
-            <caret line="290" column="3" selection-start-line="290" selection-start-column="3" selection-end-line="290" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/blog/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2025">
-            <caret line="81" column="95" selection-start-line="81" selection-start-column="95" selection-end-line="81" selection-end-column="95" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/design-pattern/ep1/ep1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/blog/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/blog/2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="184">
-            <caret line="81" column="60" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/blog/3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="413">
-            <caret line="131" column="28" lean-forward="true" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/unknown-js/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
-            <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/professional-javascript-for-web-developers/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/professional-javascript-for-web-developers/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="7" column="113" selection-start-line="7" selection-start-column="113" selection-end-line="7" selection-end-column="113" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/design-pattern/ep15.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/design-pattern/main.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/design-pattern/ep2/ep2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/design-pattern/ep3/ep3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2225">
-            <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/algorithm/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/algorithm/basic/linkList/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="850">
-            <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/offer/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/offer/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="279">
-            <caret line="174" column="55" selection-start-line="174" selection-start-column="55" selection-end-line="174" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/404.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/leetcode/simple/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bind.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-656">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="108" column="37" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-321">
-            <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
