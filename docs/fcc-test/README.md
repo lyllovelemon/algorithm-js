@@ -309,3 +309,23 @@ function debounce(fn,wait) {
   }
 }
 ```
+## 手写快速排序
+思路：
+1. 将要快排的数组分为三部分:left,middle,right,使left<=middle,right>middle
+2. 递归处理左部分
+3. 递归处理右部分
+```javascript
+function quickSort(arr) {
+  let j=0;
+  let last=arr[arr.length-1];
+  for(let i=0;i<arr;i++){
+  	if(last>arr[i]){
+  		swap(arr,i,j++)
+  	}
+  }
+  function swap(arr,i,j) {
+    [arr[i],arr[j]]=[arr[j],arr[i]]
+  }
+}
+quickSort([7,1,6,2,5,3,4])
+```
