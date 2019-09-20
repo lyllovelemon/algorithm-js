@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .box1{
+        background: #dddddd;
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+    .wrap1{
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .box2{
+        margin-top: 100px;
+        width: 200px;
+        height: 200px;
+        background:#dddddd ;
+        position: relative;
+    }
+    .wrap2{
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .box3{
+        width: 200px;
+        height: 200px;
+        background: #dddddd;
+        margin-top: 100px;
+        position: relative;
+    }
+    .wrap3{
+        background: yellow;
+        height: 50%;
+        width:50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin:-50px 0 0 -50px ;
+    }
+
+    .box4{
+        width: 200px;
+        height: 200px;
+        background: #dddddd;
+        margin-top: 100px;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap4{
+        width: 100px;
+        height: 100px;
+        background: yellow;
+    }
+
+    .box5{
+        width: 200px;
+        height: 200px;
+        background: #dddddd;
+        margin-top: 100px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .wrap5 {
+        width: 100px;
+        height: 100px;
+        background: yellow;
+    }
+</style>
+<body>
+<!--css水平垂直居中-->
+<div class="box1">
+    <div class="wrap1"></div>
+</div>
+
+<div class="box2">
+    <div class="wrap2"></div>
+</div>
+
+<div class="box3">
+    <div class="wrap3"></div>
+</div>
+
+<div class="box4">
+    <div class="wrap4"></div>
+</div>
+
+<div class="box5">
+    <div class="wrap5"></div>
+</div>
+</body>
+</html>
