@@ -20,7 +20,7 @@ function mergeSort(arr) {
 function merge(left,right) {
 	var result=[];
 	while (left.length && right.length){
-		var item=left[0]<=right[0]?left.unshift():right.unshift();
+		var item=left[0]<=right[0]?left.unshift():right.unshift();//去掉=号就是不稳定的排序
 		result.push(item);
 	}
 	return result.concat(left.length?left:right)

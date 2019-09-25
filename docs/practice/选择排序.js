@@ -18,8 +18,8 @@ function selectionSort(arr) {
 		temp=arr[i];
 		arr[i]=min;
 		min=temp
-		
+
 	}
 	return arr;
-	
+
 }
