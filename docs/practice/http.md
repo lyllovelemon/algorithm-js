@@ -55,12 +55,36 @@ w3c盒子模型:width=content
 可以通过css3属性box-sizing对两种盒子模型进行转换:IE盒子模型(border-box),标准盒子模型(content-box)
 
 6. 谈谈对BFC的理解
-BFC:块级格式化上下文，BFC决定了元素如何对内容定位，以及与其他元素的关系和相互作用
+常见定位方案:
+1. 普通流定位
+普通流定位是根据元素在html的位置来定位的，行内元素在同一行内，直到该行放不下换行。块级元素独占一行。
+
+2. 浮动定位
+浮动定位是在普通流的基础上元素向左或者向右偏移。(float不为none时触发)
+
+3. 绝对定位
+position:absolute时使用绝对定位，元素会脱离普通流。不管它怎么定位都不会对兄弟元素产生影响。
+绝对定位的元素位置由最近的已经定位的祖先元素决定.
+
+
+BFC:块级格式化上下文，BFC决定了元素如何对内容定位，以及与其他元素的关系和相互作用。
+可以把BFC看作独立的箱子，里面的元素如何翻江倒海都不会影响到外面的元素
 
 如何创建BFC:
 1.overflow不为visible;
 2.float的值不为none；
 3.position的值不为static或relative；
-4.display属性为inline-blocks,table,table-cell,table-caption,flex,inline-flex;
+4.display属性为inline-block,table,table-cell,table-caption,flex,inline-flex;
+
+BFC应用：
+1. 可以阻止元素被浮动元素遮挡或覆盖
+```html
+<div style="width:100px;height:100px;float: left;background: lightblue">我是一个左浮动元素</div>
+<div style="width: 200px;height: 200px;background: #2E8DFF;color: #ffffff">我是一个没有设置浮动, 
+          也没有触发 BFC 元素,width: 100px;height: 100px;background: #2E8DFF;color: #ffffff</div>
+
+```
+2. 同一个BFC下外边距会被折叠
+3. BFC可以包含浮动的元素(清除浮动)
 
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        background: #2E8DFF;
+        margin: 100px;
+    }
+    .container{
+        overflow: hidden;
+    }
+    p{
+        width: 100px;
+        height: 100px;
+        background: #2E8DFF;
+        margin: 100px;
+    }
+</style>
+<body>
+<!--同一个BFC-->
+<div></div>
+<div></div>
+
+<!--想要避免BFC,可以把元素放于不同的BFC下-->
+<div class="container">
+    <p></p>
+</div>
+<div class="container">
+    <p></p>
+</div>
+</body>
+</html>

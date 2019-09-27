@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/practice/八种常见js继承.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/practice/函数柯里化.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/practice/函数柯里化.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/practice/BFC/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/practice/BFC/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/practice/BFC/3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/practice/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/practice/http.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/practice/希尔排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/practice/希尔排序.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/offer/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/offer/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/offer/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/offer/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/practice/http.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/practice/http.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,53 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/offer/1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="65">
+                <caret line="1139" selection-start-line="1139" selection-end-line="1161" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/practice/http.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="410">
-                <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/practice/函数柯里化.js">
+        <entry file="file://$PROJECT_DIR$/docs/offer/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/practice/八种常见js继承.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="424">
-                <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
-                <folding>
-                  <element signature="e#11#19#0" />
-                  <element signature="e#809#820#0" />
-                  <element signature="e#1205#1212#0" />
-                  <element signature="e#2113#2121#0" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/practice/函数柯里化.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="152">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -75,8 +46,8 @@
       <list>
         <option value="CSS File" />
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -111,15 +82,20 @@
         <option value="$PROJECT_DIR$/docs/practice/函数柯里化.js" />
         <option value="$PROJECT_DIR$/docs/practice/八种常见js继承.js" />
         <option value="$PROJECT_DIR$/docs/practice/八种常见js继承.md" />
+        <option value="$PROJECT_DIR$/docs/practice/BFC.html" />
+        <option value="$PROJECT_DIR$/docs/practice/BFC/2.html" />
         <option value="$PROJECT_DIR$/docs/practice/http.md" />
+        <option value="$PROJECT_DIR$/docs/practice/BFC/3.html" />
+        <option value="$PROJECT_DIR$/docs/offer/1.md" />
+        <option value="$PROJECT_DIR$/docs/offer/1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="742" />
-    <option name="y" value="152" />
+    <option name="x" value="378" />
+    <option name="y" value="129" />
     <option name="width" value="1700" />
-    <option name="height" value="978" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectId" id="1QVA5GJLDhQitStpGmOG22vVd5b" />
   <component name="ProjectView">
@@ -127,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,13 +120,12 @@
               <item name="algorithm-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-js" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,18 +139,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\algorithm-js\docs" />
-      <recent name="E:\git\algorithm-js\network\file" />
-      <recent name="E:\git\algorithm-js\algorithm" />
-      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\git\algorithm-js\docs" />
       <recent name="E:\git\algorithm-js\vue" />
       <recent name="E:\git\algorithm-js\design-pattern" />
       <recent name="E:\git\algorithm-js\image" />
       <recent name="E:\git\algorithm-js\algorithm\basic\queue" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\docs\practice\BFC" />
+      <recent name="E:\git\algorithm-js\docs" />
+      <recent name="E:\git\algorithm-js\network\file" />
+      <recent name="E:\git\algorithm-js\algorithm" />
+      <recent name="E:\git\algorithm-js\professional-javascript-for-web-developers\function\factorial" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -354,6 +331,7 @@
       <workItem from="1569376026695" duration="44000" />
       <workItem from="1569392591800" duration="5059000" />
       <workItem from="1569466024949" duration="14044000" />
+      <workItem from="1569548929686" duration="9740000" />
     </task>
     <task id="LOCAL-00045" summary="feat:增加图遍历">
       <created>1555661640835</created>
@@ -702,13 +680,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23131000" />
+    <option name="totallyTimeSpent" value="32871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="742" y="152" width="1700" height="978" extended-state="0" />
+    <frame x="378" y="129" width="1700" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2682927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27134147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -720,7 +698,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33127317" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -794,23 +772,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:重新部署readme" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/offer/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23225">
-            <caret line="929" column="19" selection-start-line="929" selection-start-column="17" selection-end-line="929" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/offer/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/practice/快速排序.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -862,20 +823,11 @@
         <state relative-caret-position="-525" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/practice/函数柯里化.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/practice/八种常见js继承.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/practice/八种常见js继承.js" />
     <entry file="file://$PROJECT_DIR$/docs/practice/函数柯里化.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="341">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -885,26 +837,81 @@
     <entry file="file://$PROJECT_DIR$/docs/practice/八种常见js继承.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="424">
+          <first_editor relative-caret-position="2800">
             <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
             <folding>
               <element signature="e#11#19#0" />
               <element signature="e#809#820#0" />
               <element signature="e#1205#1212#0" />
-              <element signature="e#2113#2121#0" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/practice/函数柯里化.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/practice/BFC/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/practice/BFC/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/practice/http.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="410">
-            <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+          <first_editor relative-caret-position="251">
+            <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+            <folding>
+              <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/practice/BFC/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/offer/1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="65">
+            <caret line="1139" selection-start-line="1139" selection-end-line="1161" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/offer/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>

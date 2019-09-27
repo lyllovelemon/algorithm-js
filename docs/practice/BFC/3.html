@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+</head>
+<style>
+    .test1{
+        border: 1px solid #000000;
+    }
+    .test1 div{
+        width: 100px;
+        height: 100px;
+        background: #2E8DFF;
+        float: left;
+    }
+    .test2{
+        margin-top:300px;
+        border: 1px solid #000000;
+        overflow: hidden;
+    }
+    .test2 div{
+        width: 100px;
+        height: 100px;
+        background: #2E8DFF;
+        float: left;
+    }
+</style>
+<body>
+<div class="test1">
+    <div></div>
+</div>
+<div class="test2">
+    <div></div>
+</div>
+</body>
+</html>
