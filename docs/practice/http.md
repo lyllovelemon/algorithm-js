@@ -98,4 +98,83 @@ BFC应用：
 6. .capture:让事件从监听变成捕获。当元素添加了.capture修饰符时，父元素的click事件会先触发，然后触发子元素
 的click事件。
 
+## http报文
+http报文分为请求报文和响应报文.
+
+请求报文由请求方法、URL、协议版本、可选的请求首部字段和内容实体组成.
+
+1. Post->请求方法 /form/query->URL HTTP/1.1 协议版本
+
+2. Host:www.baidu.com
+
+   Connetction:keep-alive
+   
+   Content-Type:application/x-www-form-urlencoded
+   
+   Content-Length:16
+   
+   (请求首部字段)
+ 
+3.username=lyl&password=123（内容实体）
+
+响应报文由协议版本、状态码、用以解释状态的原因短语、可选的首部字段和实体主体构成。
+1. HTTP/1.1->协议版本 200->状态码 OK->状态码的原因短语
+2. Date:Tue,10 Jul 2019 12:30:15 GMT
+
+   Content-Length:362
+   
+   Content-Type:text/html
+   （响应首部字段）
+3. 
+```html
+ <html>
+  ...
+ (实体主体)
+```
+## 常见状态码
+2xx 成功
++ 200-OK,表示从客户端发来的请求在服务器被正确处理
++ 204-No Content,表示请求成功，但响应报文不包含请求报文的实体部分
++ 206-Partial Content,表示范围请求
+
+3xx 重定向
++ 301-moved permanently，永久重定向，表示资源被分配给了新的URL
++ 302-found,临时重定向，表示资源临时被分配给了新的URL
++ 303-see other.表示资源存在另一个URL，应使用get请求访问改资源
++ 304-not modified,表示服务器允许访问资源，但发生请求未满足条件的情况
++ 307-temporary redirect ，临时重定向
+
+4xx 客户端错误
++ 400-bad request,请求报文存在语法错误
++ 401-unauthorized,请求有需要http认证的认证信息
++ 403-forbidden,对请求资源的访问被服务器拒绝
++ 404-not found，在服务器上找不到要请求的资源
+
+5xx 服务器错误
++ 500-internal server error，服务器在执行请求时发生了错误
++ 503-service unavailable,服务器暂时处于超负载或停机维护，无法处理请求
+
+## http首部
+1. 通用首部
+
+指的是请求报文和响应报文都可以使用的字段
+
+Cache Control:
++ no-cache，指客户端不缓存过期资源
++ no-store，指不进行缓存
++ max-age=t，指缓存资源的缓存时间
+
+Connection:
++ close，服务器断开连接
++ keep-alive，指保存持久连接
+
+Upgrade:可以指定一个完全不同的通信协议，对这个字段，服务器可以返回101状态码。
+
+2. 请求首部
++ Accept:用户代理可以处理的媒体类型以及媒体类型的优先级
++ Accept-Encoding:指用来告知服务器用户代理支持的内容编码及内容编码的优先级顺序
++ Authorization:用来告知服务器，用户代理的认值信息
++ Host:要请求的主机
++ User-Agent:创建请求的浏览器和用户代理名称等信息传达给服务器
+ 
 
