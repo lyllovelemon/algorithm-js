@@ -1,5 +1,5 @@
 http常见问题
-1. http1.0,http1.1,http2.0的区别?
+## http1.0,http1.1,http2.0的区别?
 
 http1.0和http1.1的区别：
 + 长连接:http1.0浏览器和服务器只保持短暂连接，http1.1支持长连接(持久连接)
@@ -19,9 +19,9 @@ http1.1和http2.0的区别:
 header fields表，既避免了header重复传输，又减少了传输大小。
 + http2.0具有服务端推送能力
 
-2. http2.0的优缺点
+## http2.0的优缺点
 
-3. js的call、apply、bind的区别
+## js的call、apply、bind的区别
 三者都能实现属性和方法的继承，改变函数执行的上下文，即改变函数运行时this的指向。
 + call接收参数列表，apply接收参数数组，bind不兼容IE6~8
 + call和apply改变了this的上下文便执行该函数，而bind是返回改变了上下文的一个函数
@@ -33,7 +33,7 @@ header fields表，既避免了header重复传输，又减少了传输大小。
 + 判断变量类型
 + 多继承
 
-4. var,const,let区别
+## var,const,let区别
 + var是es5语法，用于定义一个全局变量,const,let都是es6写法,const用于定义常量，let用于定义变量
 + var存在变量提升,let先定义后声明存在暂时性死区，会报referenceError
 + const一旦定义不可修改，但是引用类型可以修改
@@ -48,13 +48,13 @@ b=2;
 let b;
 console.log(b);//referenceError
 ```
-5. 介绍盒子模型
+## 介绍盒子模型
 盒子模型包括:content、margin、border、padding几个要素
 IE盒子模型:width=content+padding*2
 w3c盒子模型:width=content
 可以通过css3属性box-sizing对两种盒子模型进行转换:IE盒子模型(border-box),标准盒子模型(content-box)
 
-6. 谈谈对BFC的理解
+## 谈谈对BFC的理解
 常见定位方案:
 1. 普通流定位
 普通流定位是根据元素在html的位置来定位的，行内元素在同一行内，直到该行放不下换行。块级元素独占一行。
@@ -86,5 +86,16 @@ BFC应用：
 ```
 2. 同一个BFC下外边距会被折叠
 3. BFC可以包含浮动的元素(清除浮动)
+
+## vue v-on常用修饰符
+1. .once:事件只调用一次
+2. .prevent:阻止事件默认行为，等于event.preventDefault()
+3. .self:只有定义在事件绑定的元素上才被触发，但是仍然会冒泡
+4. .native:给自定义的根元素定义一个原生事件，通常用于自定义组件。如果给一个普通的html元素添加.native,那么该html元素
+无法监听到事件
+5. .stop:阻止事件冒泡,等于调用event.stopPropagation()方法。当元素添加了.stop修饰符，调用click
+事件时，事件不会向上冒泡，即父元素不会调用click事件。
+6. .capture:让事件从监听变成捕获。当元素添加了.capture修饰符时，父元素的click事件会先触发，然后触发子元素
+的click事件。
 
 
