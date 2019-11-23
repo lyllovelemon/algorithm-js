@@ -14,6 +14,6 @@
 // let curryPlus=curry((...x)=>x.reduce((a,b)=>a+b));
 // curryPlus(5)(4);
 
-const curry=(fn,arr=[])=> (...args)=>(a=> a.length===fn.length? fn(...a):curry(fn,[...a]))([...arr,...args]);
-let curryPlus=((a,b,c,d)=>a+b+c+d);
+ const curry=(fn,arr=[])=> (...args)=>(a=> a.length===fn.length? fn(...a):curry(fn,[...a]))([...arr,...args]);
+// let curryPlus=((a,b,c,d)=>a+b+c+d);
 

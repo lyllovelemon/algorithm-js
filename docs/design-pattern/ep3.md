@@ -6,7 +6,25 @@
 代理模式的关键是:当用户不方便直接访问一个对象时，可以提供一个替身对象来控制对这个对象的访问，用户实际上
 访问的是替身对象。替身对象对请求做出一些处理后，再把请求转交给本体对象。
 
-以小明追女生A为例，他跟女生不熟，恰好认识的B是女生的闺蜜，小明可以通过B给A送花。
+以小明送花为例，小明遇到心仪女生A，想直接送花，代码表示为：
+```ecmascript 6
+var Flower=function() {
+  
+}
+var xiaoMing={
+	sendFlower(target){
+		var flower=new Flower()
+	}
+};
+var A={
+	receiveFlower(flower){
+		console.log('收到花'+flower)
+	}
+}
+xiaoMing.sendFlower(A);
+```
+
+接下来引入代理。小明追女生A，他跟女生不熟，恰好认识的B是女生的闺蜜，小明可以通过B给A送花。
 在A心情好的时候送花成功率60%，心情不好的时候送花成功率0，小明可以把花给B，让B监听A的心情，在A心情好
 的时候把花送出。
 ```ecmascript 6
