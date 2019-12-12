@@ -1,9 +1,9 @@
-localStorage.setItem('test',1234567);
-let test=localStorage.getItem('test');
-console.log(typeof test,test);//存进去是number，取出来是string
-localStorage['name']='lemon';
-console.log(localStorage['name']);
-
+// localStorage.setItem('test',1234567);
+// let test=localStorage.getItem('test');
+// console.log(typeof test,test);//存进去是number，取出来是string
+// localStorage['name']='lemon';
+// console.log(localStorage['name']);
+console.log(parseInt('0.0016')+"%")
 // console.log(Date.now());//返回13位时间戳，单位毫秒
 // set(key, value, expired)
 // {
