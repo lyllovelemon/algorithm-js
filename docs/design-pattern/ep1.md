@@ -20,7 +20,7 @@ Singleton.getInstance=function(name) {
 }
 let a=Singleton.getInstance('a');
 let b=Singleton.getInstance('b');
-console.log(a===b);
+console.log(a===b);//true
 ```
 这段单例模式的代码意义不大，我们可以进行优化。
 

@@ -14,18 +14,27 @@
 
     //## 整数中1出现的次数
 	//求出1~13的整数中1出现的次数,并算出100~1300的整数中1出现的次数？为此他特别数了一下1~13中包含1的数字有1、10、11、12、13因此共出现6次,但是对于后面问题他就没辙了。ACMer希望你们帮帮他,并把问题更加普遍化,可以很快的求出任意非负整数区间中1出现的次数（从1 到 n 中1出现的次数）。
-	function FindFirstCommonNode(pHead1, pHead2)
+	function KthNode(pRoot, k)
 	{
-		let p1=pHead1,p2=pHead2;
 		// write code here
-        while (p1!==p2){
-        	p1=(pHead1===null?pHead2:p1.next);
-            p2=(pHead2===null?pHead1:p2.next);
-        }
-        return p1;
+		if(k<=0){
+			return null;
+		}
+		var count=0;
+		function Knodes(pRoot, k){
+			if(pRoot!==null){
+				var node = Knodes(pRoot.left, k);
+				if(node!==null){return node;}
+				count++;
+				if(count==k){return pRoot;}
 
+				node = Knodes(pRoot.right, k);
+				if(node!==null){return node;}
+			}
+			return null;
+		}
+		return Knodes(pRoot,k);
 	}
-
 </script>
 </body>
 </html>
