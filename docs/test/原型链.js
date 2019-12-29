@@ -50,11 +50,23 @@
 // console.log(instance2.getValue())
 
 //4.原型继承
-function object(o) {
-    function F() {}
-    F.prototype=o
-    return new F()
+// function object(o) {
+//     function F() {}
+//     F.prototype=o
+//     return new F()
+// }
+var person={
+    friends:['yuki','sakura','may']
 }
+var person2=Object.create(person)
+var person3=Object.create(person)
+// var person2=object(person)
+person2.friends.push('bob')
+// var person3=Object(person)
+person3.friends.push('yama')
+console.log(person.friends)
+console.log(person2.friends)
+console.log(person3.friends)
 
 
 //object()
