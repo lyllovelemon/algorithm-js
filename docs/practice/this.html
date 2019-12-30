@@ -4,7 +4,133 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    .main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .to-do{
+        font-size: 28px;
+        font-weight: 400;
+        color: #999999;
+        margin: 0 auto;
+    }
+    .container{
+        margin-top: 20px;
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+    }
+    .arrow{
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+    }
+    .arrow::after{
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-width: 0 2px 2px 0;
+        border-color: #c7c7cc;
+        border-style: solid;
+        transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+        transform-origin: center;
+        top: 50%;
+        right:0;
+    }
+    .input-container{
+        width: 400px;
+        height: 50px;
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        color: #333333;
+        font-size: 14px;
+        text-indent: 50px;
+        outline: none;
+    }
+    .hint-container{
+        margin-top: 1px;
+        width: 400px;
+        height: auto;
+        background: #ffffff;
+        border-width: 0 1px 1px 1px;
+        border-color: #dddddd;
+        border-style: solid;
+        color: #333333;
+        font-size: 14px;
+        display: none;
+        text-indent: 50px;
+        align-items: center;
+    }
+    .hint-container span{
+        height: 30px;
+        margin-top: 10px;
+        cursor: pointer;
+        width: 43%;
+        display: inline-block;
+    }
+</style>
 <body>
-<script src="this.js"></script>
+<div class="main">
+    <p class="to-do">todos</p>
+    <div class="container">
+        <span class="arrow"></span>
+        <input class="input-container" id="input" type="text">
+        <div class="hint-container" id="hint">
+        </div>
+    </div>
+</div>
+
+<script>
+    var input=document.getElementById('input');
+    var hint=document.getElementById('hint')
+    var hintArr=[]
+    input.onkeyup=function(e){
+        if(e.keyCode=='13'){
+        	var div=document.createElement('div')
+        	var p=document.createElement("span");
+            var deleSpan=document.createElement('span');
+            hint.style.display='block'
+            if(hintArr.length){
+            	console.log('value',e.target.value)
+				let i=hintArr.findIndex(item=>{
+					return item===e.target.value
+                })
+				console.log('i',i)
+				if(~i){
+                    hint.childNodes[i+1].style.color='red'
+                    console.log('childNode',hint.childNodes)
+					return
+				}
+            }
+            if(e.target.value!==''){
+				hintArr.push(e.target.value)
+				hint.appendChild(div)
+                div.appendChild(p)
+                div.appendChild(deleSpan)
+                deleSpan.innerHTML='&times;';
+				p.innerHTML=e.target.value
+				console.log('arr',hintArr)
+            }
+            deleSpan.onclick=function () {
+                hint.removeChild(this.parentNode)
+			}
+        }
+    }
+    input.onblur=function (e) {
+        hint.style.display="none"
+	}
+</script>
+<script src="强制类型转换.js"></script>
 </body>
 </html>
