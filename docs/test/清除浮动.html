@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+</head>
+<style>
+    .container{
+        width: 300px;
+        border: 1px solid #000000;
+        background: #aaa;
+        /*overflow: hidden;*/
+        zoom: 1;
+    }
+    .container::after{
+        content: '';
+        height: 0;
+        clear: both;
+        display: block;
+        /*visibility: hidden;*/
+    }
+    .left{
+        width: 100px;
+        height: 100px;
+        background: #ffff00;
+        float: left;
+    }
+    .right{
+        width: 100px;
+        height: 100px;
+        background: lightblue;
+        float: right;
+    }
+    /*方法一*/
+    /*.clear{*/
+    /*    clear: both;*/
+    /*}*/
+    /*方法一*/
+
+
+</style>
+<body>
+<!--方法一-->
+<!--<div class="container">-->
+<!--    <div class="left"></div>-->
+<!--    <div class="right"></div>-->
+<!--    <div class="clear"></div>-->
+<!--</div>-->
+<!--方法一-->
+
+<!--方法二-->
+<!--方法二-->
+<div class="container">
+    <div class="left"></div>
+    <div class="right"></div>
+</div>
+</body>
+</html>
