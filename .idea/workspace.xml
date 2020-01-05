@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/test/两数相加.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/test/背包问题.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/一年半前端深信服凉面.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/practice/二分查找.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/leetcode/2.两数相加.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/leetcode/2.两数相加.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/practice/this.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/practice/this.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/practice/函数节流防抖.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/practice/函数节流防抖.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/test/原型链.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/原型链.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/手写深拷贝.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/手写深拷贝.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../island" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -54,19 +55,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\git\algorithm-js\docs\test" />
-      <recent name="E:\git\algorithm-js\docs" />
-      <recent name="E:\git\algorithm-js\vue" />
-      <recent name="E:\git\algorithm-js\design-pattern" />
-      <recent name="E:\git\algorithm-js\image" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\git\algorithm-js\docs\unknown-js\shoppee" />
       <recent name="E:\git\algorithm-js\docs\practice\BFC" />
       <recent name="E:\git\algorithm-js\docs" />
       <recent name="E:\git\algorithm-js\network\file" />
       <recent name="E:\git\algorithm-js\algorithm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\git\algorithm-js\docs\test" />
+      <recent name="E:\git\algorithm-js\docs" />
+      <recent name="E:\git\algorithm-js\vue" />
+      <recent name="E:\git\algorithm-js\design-pattern" />
+      <recent name="E:\git\algorithm-js\image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,7 +282,12 @@
       <workItem from="1577361717507" duration="1451000" />
       <workItem from="1577363588038" duration="5859000" />
       <workItem from="1577583142419" duration="2000" />
-      <workItem from="1577583361106" duration="3440000" />
+      <workItem from="1577583361106" duration="5635000" />
+      <workItem from="1577692614315" duration="26000" />
+      <workItem from="1577693264564" duration="8030000" />
+      <workItem from="1577844587671" duration="7181000" />
+      <workItem from="1577973259480" duration="857000" />
+      <workItem from="1578225633063" duration="1188000" />
     </task>
     <task id="LOCAL-00045" summary="feat:增加图遍历">
       <created>1555661640835</created>

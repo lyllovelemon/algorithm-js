@@ -1,20 +1,53 @@
-var obj={
-    name:'lemon',
-    age:24
-}
-function deepCopy(obj) {
-    var result={}
-    Object.keys(obj).forEach(key=>{
-        if(typeof obj[key]==='object'){
-            deepCopy(obj[key])
+
+function deepClone(obj,map=new WeakMap()){
+    if(typeof obj==='object'){
+        let isArray=Array.isArray(obj)
+        let result=isArray?[]:{}
+        if(map.get(obj)){
+            return map.get(obj)
         }
-        else {
-            result[key]=obj[key]
+        map.set(obj,result)
+        const keys=isArray?undefined:Object.keys(obj)
+        forEach(keys||obj,(value,key)=>{
+          if(keys){
+              key=value
+          }
+          result[key]=deepClone(obj[key],map)
+        })
+        return result
+    }
+    else {
+        return obj
+    }
+    function forEach(array,iterate) {
+        let index=-1
+        const length=array.length
+        while(++index<length){
+            iterate(array[index],index)
         }
-    })
-    return result
+        return array
+    }
 }
-let obj2=deepCopy(obj)
-obj.name='lyl'
-console.log(obj)
-console.log(obj2)
+
+const target = {
+    field1: 1,
+    field2: undefined,
+    field3: {
+        child: 'child'
+    },
+    field4: [2, 4, 8],
+    f: { f: { f: { f: { f: { f: { f: { f: { f: { f: { f: { f: {} } } } } } } } } } } },
+};
+
+target.target = target;
+
+console.time();
+const result = deepClone(target);
+console.timeEnd();
+
+console.time();
+const result2 = deepClone(target);
+console.timeEnd();
+
+// let obj3=JSON.parse(JSON.stringify(target))
+// console.log(obj3)
