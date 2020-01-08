@@ -2,7 +2,7 @@
 
 ## 函数
 + [函数](https://github.com/lyllovelemon/algorithm-js/tree/master/docs/normal-js/1.md)
-+ [递归](https://github.com/lyllovelemon/algorithm-js/tree/master/docs/normal-js/function/2.md)
++ [递归](https://github.com/lyllovelemon/algorithm-js/tree/master/docs/normal-js/2.md)
 ## 对象
 + [对象基础](https://github.com/lyllovelemon/algorithm-js/tree/master/docs/normal-js/3.md)
 + [对象扩展](https://github.com/lyllovelemon/algorithm-js/tree/master/docs/normal-js/4.md)
