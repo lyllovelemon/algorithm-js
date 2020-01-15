@@ -99,8 +99,8 @@ let strategy={
 let calculateBonus=function(level,salary) {
   return strategy[level](salary);
 };
-console.log('S',20000);
-console.log('A',10000);
+console.log(calculateBonus('S',20000));
+console.log(calculateBonus('A',10000));
 ```
 ## 优缺点
 + 策略模式利用组合、委托和多态的概念，可以有效避免多重条件语句
