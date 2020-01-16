@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/leetcode/回文数.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/leetcode/字符串转换整数.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/leetcode/正则表达式匹配.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/leetcode/盛最多水的容器.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/leetcode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/leetcode/index.html" afterDir="false" />
     </list>
