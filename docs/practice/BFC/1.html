@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+.left{
+    background: green;
+    opacity: .5;
+    border: 3px solid #eeeeee;
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+.right{
+    background: purple;
+    opacity: .5;
+    border: 3px solid #eeeeee;
+    width: 400px;
+    min-height: 100px;
+    overflow: hidden;
+}
+.box{
+    background: #888888;
+    height: 100%;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.little{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+</style>
 <body>
-<!--1.设置BFC之前-->
-<div style="width:100px;height:100px;float: left;background: lightblue">我是一个左浮动元素</div>
-<div style="width: 200px;height: 200px;background: #2E8DFF;color: #ffffff">我是一个没有设置浮动,
-    也没有触发 BFC 元素,width: 100px;height: 100px;background: #2E8DFF;color: #ffffff</div>
-
-<!--1.设置BFC之后-->
-<div style="width:100px;height:100px;float: left;background: lightblue">我是一个左浮动元素</div>
-<div style="width: 200px;height: 200px;background: #2E8DFF;color: #ffffff;overflow: hidden;">我是一个没有设置浮动,
-    也没有触发 BFC 元素,width: 100px;height: 100px;background: #2E8DFF;color: #ffffff</div>
+     <div class="box">
+         <div class="left"></div>
+         <div class="right">
+             <div class="little"></div>
+             <div class="little"></div>
+             <div class="little"></div>
+             <div class="little"></div>
+         </div>
+     </div>  
 </body>
 </html>
