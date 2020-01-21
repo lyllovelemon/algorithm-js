@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/leetcode/三数之和.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/vue/发布订阅模式.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/leetcode/最接近的三数之和.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/leetcode/电话号码的字母组合.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/network/sql.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/practice/变量提升.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/leetcode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/leetcode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/network/file/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/file/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/leetcode/三数之和.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/leetcode/三数之和.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -293,7 +295,9 @@
       <workItem from="1578474382970" duration="1497000" />
       <workItem from="1579225080914" duration="2167000" />
       <workItem from="1579314882838" duration="4009000" />
-      <workItem from="1579319014892" duration="600000" />
+      <workItem from="1579319014892" duration="3085000" />
+      <workItem from="1579420773134" duration="688000" />
+      <workItem from="1579598942581" duration="2216000" />
     </task>
     <task id="LOCAL-00045" summary="feat:增加图遍历">
       <created>1555661640835</created>
@@ -699,6 +703,16 @@
     <MESSAGE value="feat:重新部署readme" />
     <MESSAGE value="feat:add basic" />
     <option name="LAST_COMMIT_MESSAGE" value="feat:add basic" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/docs/leetcode/电话号码的字母组合.js</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
