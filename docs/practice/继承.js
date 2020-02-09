@@ -1,3 +1,16 @@
+//4.原型继承
+function object(o){
+	function F(){}
+	F.prototype=o
+	return new F()
+}
+var person={
+	friends:['a','b','c']
+}
+var anotherPerson=object(person)
+anotherPerson.friends.push('d')
+console.log(anotherPerson.friends)
+
 //1.原型链继承
 // function SuperType() {
 // 	this.property=true
@@ -29,22 +42,22 @@
 // console.log(instance2.colors)
 
 //3.组合继承
-function superType(name) {
-	this.name=name
-	this.colors=['red','blue','green']
-}
-superType.prototype.sayName=function () {
-	console.log(this.name)
-}
-function subType(name,age) {
-	superType.call(this,name)
-	this.age=age
-}
-subType.prototype=new superType()
-subType.prototype.constructor=subType
-subType.prototype.sayAge=function () {
-	console.log(this.age)
-}
-var instance1=new subType('Nicholas',29)
-instance1.colors.push("black")
+// function superType(name) {
+// 	this.name=name
+// 	this.colors=['red','blue','green']
+// }
+// superType.prototype.sayName=function () {
+// 	console.log(this.name)
+// }
+// function subType(name,age) {
+// 	superType.call(this,name)
+// 	this.age=age
+// }
+// subType.prototype=new superType()
+// subType.prototype.constructor=subType
+// subType.prototype.sayAge=function () {
+// 	console.log(this.age)
+// }
+// var instance1=new subType('Nicholas',29)
+// instance1.colors.push("black")
 
