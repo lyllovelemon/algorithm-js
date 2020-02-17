@@ -1,6 +1,26 @@
-var deepClone=(obj)=>{
+function shallowCopy(obj){
+	if(typeof obj==='function'&& obj!==null){
+		let cloneObj=Array.isArray(obj)?[]:{}
+		for(let prop in obj){
+			if(obj.hasOwnProperty(prop)){
+				cloneObj[prop]=obj[prop]
+			}
+		}
+		return cloneObj
+	}
+	else{
+		return obj
+	}
+}
+
+var deepClone=(obj,map=new WeakMap())=>{
+  if(map.get(obj)){
+	  return obj
+  }
+
   let newObj;
   if(typeof obj==='object'&& obj!==null){
+	  map.set(obj,true)
   	newObj=Array.isArray(obj)?[]:{};
   	for(let item in obj){
   		if(obj.hasOwnProperty(item)){
