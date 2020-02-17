@@ -5,7 +5,7 @@
  * 2.循环遍历数组，值比pivot小则存入左边的数组，否则存入右边的数组
  * 3. 不断重复步骤2，直到只剩一个元素
  * **/
-function qucikSort(arr) {
+function quickSort(arr) {
     if(arr.length<=1){ return arr;}
     let pivotIndex=Math.floor(arr.length/2);
     let pivot=arr.splice(pivotIndex,1)[0];
@@ -19,5 +19,7 @@ function qucikSort(arr) {
             right.push(arr[i])
         }
     }
-    return  qucikSort(left).concat([pivot],qucikSort(right))
+    return  quickSort(left).concat([pivot],quickSort(right))
 }
+
+console.log(quickSort([1,65,2,6,1,7,2,7,13,5]))

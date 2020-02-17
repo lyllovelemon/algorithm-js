@@ -16,3 +16,4 @@ function bubbleSort(arr) {
 function swap(arr,i,j) {
 	[arr[i],arr[j]]=[arr[j],arr[i]]
 }
+console.log(bubbleSort([6,1,4,6,7,2,3]))
