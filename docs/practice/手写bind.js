@@ -20,6 +20,17 @@ let obj={
 obj.a()
 
 //slice() Object.assign() concat()  ...
-function shallowCopy(fn){
-    return typeof fn==='object'&&fn!==null?{}:[]
+function shallowCopy(obj){
+    if(typeof obj==='object'&&obj!==null){
+        const cloneObj=Array.isArray(obj)?[]:{}
+        for(let item in obj){
+            if(obj.hasOwnProperty(item)){
+                cloneObj[item]=obj[item]
+            }
+        }
+        return cloneObj
+    }
+    else{
+        return obj
+    }
 }
