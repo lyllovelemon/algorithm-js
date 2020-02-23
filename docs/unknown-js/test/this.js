@@ -20,4 +20,4 @@ if(!Function.prototype.bind){
         fBound.prototype=new fNop()
         return fBound;
 
-}
+}}
