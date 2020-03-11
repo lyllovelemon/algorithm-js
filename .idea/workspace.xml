@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="fix:解决合并冲突" />
+    <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="fix:解决合并冲突">
+      <change afterPath="$PROJECT_DIR$/docs/algorithm/src/queue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithm/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/src/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../code/vue-dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,7 +296,9 @@
       <workItem from="1579598942581" duration="2216000" />
       <workItem from="1582181171850" duration="15000" />
       <workItem from="1582272820660" duration="4562000" />
-      <workItem from="1583758929890" duration="2945000" />
+      <workItem from="1583758929890" duration="3632000" />
+      <workItem from="1583845010150" duration="43000" />
+      <workItem from="1583936086033" duration="1096000" />
     </task>
     <task id="LOCAL-00047" summary="feat:增加拓扑排序">
       <created>1555666086402</created>
