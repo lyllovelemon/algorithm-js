@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="fix:解决合并冲突">
-      <change afterPath="$PROJECT_DIR$/docs/algorithm/src/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/algorithm/src/linkList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/algorithm/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/src/index.html" afterDir="false" />
     </list>
@@ -298,7 +298,9 @@
       <workItem from="1582272820660" duration="4562000" />
       <workItem from="1583758929890" duration="3632000" />
       <workItem from="1583845010150" duration="43000" />
-      <workItem from="1583936086033" duration="1096000" />
+      <workItem from="1583936086033" duration="1409000" />
+      <workItem from="1584017414900" duration="31000" />
+      <workItem from="1584020603095" duration="1788000" />
     </task>
     <task id="LOCAL-00047" summary="feat:增加拓扑排序">
       <created>1555666086402</created>
