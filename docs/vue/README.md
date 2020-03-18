@@ -11,3 +11,6 @@ rollup-打包工具
 + vnode实现
 + vue的响应式实现
 + vue的实例化
+## 目录
++ [vue构造函数]()
++ [nextTick原理]()

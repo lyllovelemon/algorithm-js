@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="fix:解决合并冲突">
-      <change afterPath="$PROJECT_DIR$/docs/algorithm/src/linkList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vue/examples/nextTick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vue/nextTick原理.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/algorithm/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vue/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/array.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +17,8 @@
       <list>
         <option value="CSS File" />
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,8 +33,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1QVA5GJLDhQitStpGmOG22vVd5b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -44,13 +51,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\algorithm-js" />
-      <recent name="E:\git\algorithm-js\docs\unknown-js\shoppee" />
-      <recent name="E:\git\algorithm-js\docs\practice\BFC" />
-      <recent name="E:\git\algorithm-js\docs" />
-      <recent name="E:\git\algorithm-js\network\file" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\git\algorithm-js\docs\leetcode" />
       <recent name="E:\git\algorithm-js\docs" />
@@ -58,18 +58,13 @@
       <recent name="E:\git\algorithm-js\design-pattern" />
       <recent name="E:\git\algorithm-js\image" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\docs\vue\examples" />
+      <recent name="E:\git\algorithm-js" />
+      <recent name="E:\git\algorithm-js\docs\unknown-js\shoppee" />
+      <recent name="E:\git\algorithm-js\docs\practice\BFC" />
+      <recent name="E:\git\algorithm-js\docs" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.1.html">
     <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algorithm-js/docs/offer/1.html" useBuiltInWebServerPort="true">
@@ -301,6 +296,7 @@
       <workItem from="1583936086033" duration="1409000" />
       <workItem from="1584017414900" duration="31000" />
       <workItem from="1584020603095" duration="1788000" />
+      <workItem from="1584517947382" duration="3766000" />
     </task>
     <task id="LOCAL-00047" summary="feat:增加拓扑排序">
       <created>1555666086402</created>
@@ -706,6 +702,16 @@
     <MESSAGE value="feat:add leetcode medium practice" />
     <MESSAGE value="feat:add leetcode practice" />
     <option name="LAST_COMMIT_MESSAGE" value="feat:add leetcode practice" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584517974501">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584517974501" />
+    <state x="403" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584520501705">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="403" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584520501705" />
   </component>
   <component name="masterDetails">
     <states>
