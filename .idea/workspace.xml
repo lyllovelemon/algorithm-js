@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="fix:解决合并冲突">
-      <change afterPath="$PROJECT_DIR$/docs/vue/examples/nextTick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/vue/nextTick原理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/network/file/3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/offer/tencent/数组扁平化去重排序.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vue/vue局限性.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/vue/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/network/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
       <list>
         <option value="CSS File" />
         <option value="package.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,11 +60,11 @@
       <recent name="E:\git\algorithm-js\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\algorithm-js\docs\vue\script" />
       <recent name="E:\git\algorithm-js\docs\vue\examples" />
       <recent name="E:\git\algorithm-js" />
       <recent name="E:\git\algorithm-js\docs\unknown-js\shoppee" />
       <recent name="E:\git\algorithm-js\docs\practice\BFC" />
-      <recent name="E:\git\algorithm-js\docs" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.1.html">
@@ -296,7 +297,10 @@
       <workItem from="1583936086033" duration="1409000" />
       <workItem from="1584017414900" duration="31000" />
       <workItem from="1584020603095" duration="1788000" />
-      <workItem from="1584517947382" duration="3766000" />
+      <workItem from="1584517947382" duration="4644000" />
+      <workItem from="1585377796375" duration="1043000" />
+      <workItem from="1586326322759" duration="611000" />
+      <workItem from="1586331786213" duration="82000" />
     </task>
     <task id="LOCAL-00047" summary="feat:增加拓扑排序">
       <created>1555666086402</created>
@@ -704,14 +708,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:add leetcode practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="437" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584517974501">
+    <state x="437" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584521912890">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="437" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584517974501" />
+    <state x="437" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584521912890" />
     <state x="403" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584520501705">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="403" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584520501705" />
+    <state x="540" y="168" key="FileChooserDialogImpl" timestamp="1585387731361">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="540" y="168" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1585387731361" />
   </component>
   <component name="masterDetails">
     <states>
