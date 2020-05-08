@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const genderList=['male','female']
+    const educationList=['primary school','junior middle school','high school','university','master','doctor']
+    var strategies={
+        checkGender(value){
+            if(value==='male'){
+                return true
+            }
+            return false
+        },
+        checkEduction(value){
+            if(value==='university'){
+                return true
+            }
+            return false
+        },
+        checkSalary(value){
+            if(value>=12000){
+                return true
+            }
+            return false
+        },
+        checkAge(value){
+            if(value<=30&&value>=24){
+                return true
+            }
+            return false
+        }
+    }
+    var Validator=function () {
+        this.cache=[]
+        this.add=function (value,method) {
+            this.cache.push(function () {
+                return strategies[method](value)
+            })
+        }
+        this.check=function () {
+            for(let i=0;i<this.cache.length;i++){
+                let fn=this.cache[i]
+                var data=fn()
+                if(!data){
+                    return false
+                }
+            }
+            return true
+        }
+    }
+    function checkAuth(data) {
+        if(data.gender!=='male'){
+            return false
+        }
+        if(data.age>=30&&data.age<=24){
+            return false
+        }
+        if(data.salary<=12000){
+            return false
+        }
+        if(data.hasMate){
+            return false
+        }
+        if(data.education!=='university'){
+            return false
+        }
+        return  true
+    }
+</script>
+</body>
+</html>
