@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5e9e22-df37-4614-8429-877154752c32" name="Default Changelist" comment="fix:解决合并冲突">
-      <change afterPath="$PROJECT_DIR$/docs/design-pattern/example/strategy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/leetcode/二叉树的中序遍历.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/leetcode/最大正方形.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/offer/tencent/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/offer/tencent/判断一个单链表是否有环.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/offer/tencent/合并两个有序链表.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/offer/tencent/数组交集.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/offer/tencent/数组扁平化去重排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/offer/tencent/数组扁平化去重排序.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/leetcode/二叉树的中序遍历.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/leetcode/二叉树的中序遍历.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,6 +300,7 @@
       <workItem from="1586488588610" duration="2559000" />
       <workItem from="1588212908606" duration="1849000" />
       <workItem from="1588932942887" duration="2630000" />
+      <workItem from="1588936181136" duration="16000" />
     </task>
     <task id="LOCAL-00047" summary="feat:增加拓扑排序">
       <created>1555666086402</created>
